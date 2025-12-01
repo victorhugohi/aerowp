@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Introduction to Aeronautics</title>
+    <title>Glossary - Introduction to Aeronautics</title>
     <link rel="stylesheet" href="../src/css/styles.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&family=Oswald:wght@500&display=swap"
@@ -14,12 +14,14 @@
 <body>
 
     <header>
-        <a href="../index.html" class="logo-link" style="text-decoration: none; color: inherit;"><div class="logo-area">
-            <span>✈️</span> AeroWP
-        </div></a>
+        <a href="../index.html" class="logo-link" style="text-decoration: none; color: inherit;">
+            <div class="logo-area">
+                <span>✈️</span> AeroWP
+            </div>
+        </a>
         <button class="menu-toggle">☰</button>
         <div class="lang-switch">
-            <a href="../contact.html" class="btn" style="padding: 5px 10px; font-size: 0.8rem;">ES</a>
+            <a href="../glossary.html" class="btn" style="padding: 5px 10px; font-size: 0.8rem;">ES</a>
         </div>
     </header>
 
@@ -47,46 +49,31 @@
                 <li><a href="chapter12.html">Chapter 12</a></li>
                 <li><a href="chapter13.html">Chapter 13</a></li>
                 <li><a href="chapter14.html">Chapter 14</a></li>
-                <li><a href="glossary.html">Glossary</a></li>
+                <li><a href="glossary.html" class="active">Glossary</a></li>
                 <li>
                     <hr style="border-color: rgba(255,255,255,0.1);">
                 </li>
-                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
                 <li><a href="about.html">About</a></li>
             </ul>
         </nav>
     </div>
 
     <main>
-        <h1>Contact Us</h1>
-        <div class="contact-container">
-            <div class="contact-info">
-                <h2>Contact Information</h2>
-                <ul>
-                    <li><strong>Email:</strong> huanca.vh@gmail.com</li>
-                    <li><strong>Address:</strong> La Paz, Bolivia</li>
-                    <li><strong>Phone:</strong> +591 76556655</li>
-                </ul>
-            </div>
+        <section class="glossary-header">
+            <h1>Aeronautical Glossary</h1>
+            <p>Key terms and definitions used in the industry.</p>
+        </section>
 
-            <div class="contact-form-wrapper">
-                <h2>Send us a Message</h2>
-                <form action="#" method="POST">
-                    <div class="form-group">
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message:</label>
-                        <textarea id="message" name="message" rows="5" required></textarea>
-                    </div>
-                    <button type="submit" class="btn">Send Message</button>
-                </form>
-            </div>
+        <div class="glossary-content">
+            <dl>
+                <dt>Aerodynamics</dt>
+                <dd>Study of the forces and motion of objects through the air.</dd>
+                <dt>Fuselage</dt>
+                <dd>Main body of an aircraft that holds crew, passengers, and cargo.</dd>
+                <dt>Lift</dt>
+                <dd>Force that acts perpendicular to the direction of motion and keeps the aircraft in the air.</dd>
+            </dl>
         </div>
     </main>
 
