@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chapter 5 - Introduction to Aeronautics</title>
+    <title>Topics - Introduction to Aeronautics</title>
     <link rel="stylesheet" href="../src/css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&family=Oswald:wght@500&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
+
     <header>
         <div class="logo-area">
             <span>✈️</span> AeroWP
         </div>
         <button class="menu-toggle">☰</button>
         <div class="lang-switch">
-            <a href="../chapter5.html" class="btn" style="padding: 5px 10px; font-size: 0.8rem;">ES</a>
+            <a href="../topics.html" class="btn" style="padding: 5px 10px; font-size: 0.8rem;">ES</a>
         </div>
     </header>
 
@@ -23,7 +28,7 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="carrera.html">Career</a></li>
-                <li><a href="topics.html">Topics</a></li>
+                <li><a href="topics.html" class="active">Topics</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
                 <li>
                     <hr style="border-color: rgba(255,255,255,0.1);">
@@ -53,19 +58,40 @@
     </div>
 
     <main>
-        <div class="card">
-            <h1>Chapter 5</h1>
-            <p>Content pending for Chapter 5.</p>
-            
-            <div class="media-container">
-                [Placeholder for Image/Video/Animation]
-            </div>
+        <section class="topics-header">
+            <h1>Study Topics</h1>
+            <p>Explore the different chapters and knowledge areas we cover in this course.</p>
+        </section>
 
-            <p>Additional explanatory text...</p>
+        <div class="topic-grid">
+            <!-- Topic Card 1 -->
+            <article class="topic-card">
+                <h3>Physics</h3>
+                <p>Fundamental concepts applied to aeronautics.</p>
+                <a href="#" class="btn">View Chapters</a>
+            </article>
+            <!-- Topic Card 2 -->
+            <article class="topic-card">
+                <h3>Mathematics</h3>
+                <p>Calculus and algebra for flight analysis.</p>
+                <a href="#" class="btn">View Chapters</a>
+            </article>
+            <!-- Topic Card 3 -->
+            <article class="topic-card">
+                <h3>English</h3>
+                <p>Technical terminology and aeronautical communication.</p>
+                <a href="#" class="btn">View Chapters</a>
+            </article>
+            <!-- Topic Card 4 -->
+            <article class="topic-card">
+                <h3>Language & Writing</h3>
+                <p>Technical documentation and reporting.</p>
+                <a href="#" class="btn">View Chapters</a>
+            </article>
         </div>
     </main>
 
-        <footer>
+    <footer>
         <p>&copy; 2025 VHHI</p>
     </footer>
 
@@ -75,4 +101,5 @@
 
     <script src="../src/js/main.js"></script>
 </body>
+
 </html>

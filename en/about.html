@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chapter 5 - Introduction to Aeronautics</title>
+    <title>About - Introduction to Aeronautics</title>
     <link rel="stylesheet" href="../src/css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&family=Oswald:wght@500&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
+
     <header>
         <div class="logo-area">
             <span>✈️</span> AeroWP
         </div>
         <button class="menu-toggle">☰</button>
         <div class="lang-switch">
-            <a href="../chapter5.html" class="btn" style="padding: 5px 10px; font-size: 0.8rem;">ES</a>
+            <a href="../about.html" class="btn" style="padding: 5px 10px; font-size: 0.8rem;">ES</a>
         </div>
     </header>
 
@@ -47,25 +52,42 @@
                     <hr style="border-color: rgba(255,255,255,0.1);">
                 </li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="about.html" class="active">About</a></li>
             </ul>
         </nav>
     </div>
 
     <main>
-        <div class="card">
-            <h1>Chapter 5</h1>
-            <p>Content pending for Chapter 5.</p>
-            
-            <div class="media-container">
-                [Placeholder for Image/Video/Animation]
-            </div>
+        <section class="about-project">
+            <h2>Mission and Objectives</h2>
+            <p>The goal of this project is to provide an accessible and comprehensive introduction to the world of
+                aeronautics. We aim to inspire students and enthusiasts through high-quality educational content.</p>
+            <p>Our mission is to demystify the principles of flight and make aeronautical knowledge accessible to
+                everyone.</p>
+        </section>
 
-            <p>Additional explanatory text...</p>
-        </div>
+        <section class="about-team">
+            <h2>Contributors</h2>
+            <p>This project has been developed with the collaboration of students from the Aeronautics Career.</p>
+
+            <div class="team-grid">
+                <!-- Contributor Card 1 -->
+                <article class="profile-card">
+                    <img src="../src/assets/images/placeholder-profile.png" alt="Student" class="profile-img">
+                    <h3>Students</h3>
+                    <p>Content Creators and Testers.</p>
+                </article>
+                <!-- Contributor Card 2 -->
+                <article class="profile-card">
+                    <img src="../src/assets/images/placeholder-profile.png" alt="Professor" class="profile-img">
+                    <h3>Professor</h3>
+                    <p>Lead Developer and Project Guide.</p>
+                </article>
+            </div>
+        </section>
     </main>
 
-        <footer>
+    <footer>
         <p>&copy; 2025 VHHI</p>
     </footer>
 
@@ -75,4 +97,5 @@
 
     <script src="../src/js/main.js"></script>
 </body>
+
 </html>

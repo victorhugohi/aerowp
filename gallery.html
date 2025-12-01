@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Capítulo 13 - Introducción a la Aeronáutica</title>
+    <title>Galería - Introducción a la Aeronáutica</title>
     <link rel="stylesheet" href="src/css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&family=Oswald:wght@500&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
+
     <header>
         <div class="logo-area">
             <span>✈️</span> AeroWP
         </div>
         <button class="menu-toggle">☰</button>
         <div class="lang-switch">
-            <a href="en/chapter13.html" class="btn" style="padding: 5px 10px; font-size: 0.8rem;">EN</a>
+            <a href="en/gallery.html" class="btn" style="padding: 5px 10px; font-size: 0.8rem;">EN</a>
         </div>
     </header>
 
@@ -24,7 +29,7 @@
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="carrera.html">Carrera</a></li>
                 <li><a href="topics.html">Temas</a></li>
-                <li><a href="gallery.html">Galería</a></li>
+                <li><a href="gallery.html" class="active">Galería</a></li>
                 <li>
                     <hr style="border-color: rgba(255,255,255,0.1);">
                 </li>
@@ -53,19 +58,32 @@
     </div>
 
     <main>
-        <div class="card">
-            <h1>Capítulo 13</h1>
-            <p>Contenido pendiente para el Capítulo 13.</p>
-            
-            <div class="media-container">
-                [Espacio para Imagen/Video/Animación]
-            </div>
-
-            <p>Texto explicativo adicional...</p>
+        <h1>Galería Multimedia</h1>
+        <div class="gallery-container">
+            <!-- Gallery Item 1 -->
+            <figure>
+                <img src="src/assets/images/placeholder-gallery.png" alt="Avión en vuelo">
+                <figcaption>Avión comercial en crucero.</figcaption>
+            </figure>
+            <!-- Gallery Item 2 -->
+            <figure>
+                <img src="src/assets/images/placeholder-gallery.png" alt="Motor de reacción">
+                <figcaption>Detalle de un motor turbofan.</figcaption>
+            </figure>
+            <!-- Gallery Item 3 -->
+            <figure>
+                <img src="src/assets/images/placeholder-gallery.png" alt="Cabina de mando">
+                <figcaption>Instrumentos de vuelo modernos.</figcaption>
+            </figure>
+            <!-- Gallery Item 4 -->
+            <figure>
+                <img src="src/assets/images/placeholder-gallery.png" alt="Túnel de viento">
+                <figcaption>Pruebas aerodinámicas en túnel de viento.</figcaption>
+            </figure>
         </div>
     </main>
 
-        <footer>
+    <footer>
         <p>&copy; 2025 VHHI</p>
     </footer>
 
@@ -75,4 +93,5 @@
 
     <script src="src/js/main.js"></script>
 </body>
+
 </html>

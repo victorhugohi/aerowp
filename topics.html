@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Capítulo 13 - Introducción a la Aeronáutica</title>
+    <title>Temas - Introducción a la Aeronáutica</title>
     <link rel="stylesheet" href="src/css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&family=Oswald:wght@500&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
+
     <header>
         <div class="logo-area">
             <span>✈️</span> AeroWP
         </div>
         <button class="menu-toggle">☰</button>
         <div class="lang-switch">
-            <a href="en/chapter13.html" class="btn" style="padding: 5px 10px; font-size: 0.8rem;">EN</a>
+            <a href="en/topics.html" class="btn" style="padding: 5px 10px; font-size: 0.8rem;">EN</a>
         </div>
     </header>
 
@@ -23,7 +28,7 @@
             <ul>
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="carrera.html">Carrera</a></li>
-                <li><a href="topics.html">Temas</a></li>
+                <li><a href="topics.html" class="active">Temas</a></li>
                 <li><a href="gallery.html">Galería</a></li>
                 <li>
                     <hr style="border-color: rgba(255,255,255,0.1);">
@@ -52,20 +57,42 @@
         </nav>
     </div>
 
-    <main>
-        <div class="card">
-            <h1>Capítulo 13</h1>
-            <p>Contenido pendiente para el Capítulo 13.</p>
-            
-            <div class="media-container">
-                [Espacio para Imagen/Video/Animación]
-            </div>
 
-            <p>Texto explicativo adicional...</p>
+    <main>
+        <section class="topics-header">
+            <h1>Temas de Estudio</h1>
+            <p>Explora los diferentes capítulos y áreas de conocimiento que cubrimos en este curso.</p>
+        </section>
+
+        <div class="topic-grid">
+            <!-- Topic Card 1 -->
+            <article class="topic-card">
+                <h3>Física</h3>
+                <p>Conceptos fundamentales aplicados a la aeronáutica.</p>
+                <a href="#" class="btn">Ver Capítulos</a>
+            </article>
+            <!-- Topic Card 2 -->
+            <article class="topic-card">
+                <h3>Matemáticas</h3>
+                <p>Cálculo y álgebra para el análisis de vuelo.</p>
+                <a href="#" class="btn">Ver Capítulos</a>
+            </article>
+            <!-- Topic Card 3 -->
+            <article class="topic-card">
+                <h3>Inglés</h3>
+                <p>Terminología técnica y comunicación aeronáutica.</p>
+                <a href="#" class="btn">Ver Capítulos</a>
+            </article>
+            <!-- Topic Card 4 -->
+            <article class="topic-card">
+                <h3>Lenguaje y Redacción</h3>
+                <p>Documentación técnica y reportes.</p>
+                <a href="#" class="btn">Ver Capítulos</a>
+            </article>
         </div>
     </main>
 
-        <footer>
+    <footer>
         <p>&copy; 2025 VHHI</p>
     </footer>
 
@@ -75,4 +102,5 @@
 
     <script src="src/js/main.js"></script>
 </body>
+
 </html>
