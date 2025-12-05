@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Capítulo 13 - Controles de Vuelo</title>
     <link rel="stylesheet" href="src/css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&family=Oswald:wght@500&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <header>
-        <a href="index.html" class="logo-link" style="text-decoration: none; color: inherit;"><div class="logo-area">
-            <span>✈️</span> AeroWP
-        </div></a>
+        <a href="index.html" class="logo-link" style="text-decoration: none; color: inherit;">
+            <div class="logo-area">
+                <span>✈️</span> AeroWP
+            </div>
+        </a>
         <button class="menu-toggle">☰</button>
         <div class="lang-switch">
             <a href="en/chapter13.html" class="btn" style="padding: 5px 10px; font-size: 0.8rem;">EN</a>
@@ -25,7 +31,9 @@
                 <li><a href="carrera.html">Carrera</a></li>
                 <li><a href="topics.html">Temas</a></li>
                 <li><a href="gallery.html">Galería</a></li>
-                <li><hr style="border-color: rgba(255,255,255,0.1);"></li>
+                <li>
+                    <hr style="border-color: rgba(255,255,255,0.1);">
+                </li>
                 <li><a href="chapter1.html">Capítulo 1</a></li>
                 <li><a href="chapter2.html">Capítulo 2</a></li>
                 <li><a href="chapter3.html">Capítulo 3</a></li>
@@ -47,8 +55,10 @@
                 <li><a href="chapter19.html">Capítulo 19</a></li>
                 <li><a href="chapter20.html">Capítulo 20</a></li>
                 <li><a href="glossary.html">Glosario
-                </a></li>
-                <li><hr style="border-color: rgba(255,255,255,0.1);"></li>
+                    </a></li>
+                <li>
+                    <hr style="border-color: rgba(255,255,255,0.1);">
+                </li>
                 <li><a href="contact.html">Contacto</a></li>
                 <li><a href="about.html">Acerca de</a></li>
             </ul>
@@ -58,8 +68,234 @@
     <main>
         <div class="card">
             <h1>Controles de Vuelo</h1>
+            <h2>Introducción</h2>
+            <p>Este capítulo se centra en los sistemas de control de vuelo que utiliza un piloto para manejar las
+                fuerzas de vuelo y la dirección y actitud de la aeronave. Cabe señalar que los sistemas y
+                características de control de vuelo pueden variar mucho dependiendo del tipo de aeronave que se pilotee.
+                Los diseños más básicos de sistemas de control de vuelo son mecánicos y se remontan a las primeras
+                aeronaves. Estos operan con una colección de piezas mecánicas, como varillas, cables, poleas y, a veces,
+                cadenas, para transmitir las fuerzas de los controles de la cabina a las superficies de control. Los
+                sistemas de control de vuelo mecánicos todavía se utilizan hoy en día en aeronaves pequeñas de categoría
+                general y deportiva donde las fuerzas aerodinámicas no son excesivas.</p>
+            <p>A medida que la aviación maduró y los diseñadores de aeronaves aprendieron más sobre aerodinámica, la
+                industria produjo aeronaves más grandes y rápidas. Por lo tanto, las fuerzas aerodinámicas que actúan
+                sobre las superficies de control aumentaron exponencialmente. Para hacer que la fuerza de control
+                requerida por los pilotos fuera manejable, los ingenieros aeronáuticos diseñaron sistemas más complejos.
+                Al principio, se utilizaron diseños hidromecánicos, que consisten en un circuito mecánico y un circuito
+                hidráulico, para reducir la complejidad, el peso y las limitaciones de los sistemas de control de vuelo
+                mecánicos. </p>
+            <p>A medida que las aeronaves se volvieron más sofisticadas, las superficies de control fueron accionadas
+                por motores eléctricos, computadoras digitales o cables de fibra óptica. Llamado “fly-by-wire” (vuelo
+                por cable), este sistema de control de vuelo reemplaza la conexión física entre los controles del piloto
+                y las superficies de control de vuelo con una interfaz eléctrica. Además, en algunas aeronaves grandes y
+                rápidas, los controles son asistidos por sistemas accionados hidráulica o eléctricamente. Tanto en los
+                controles fly-by-wire como en los asistidos, la sensación de la reacción del control se retroalimenta al
+                piloto mediante medios simulados.</p>
+            <p>La investigación actual en el Centro de Investigación de Vuelo Armstrong de la Administración Nacional de
+                Aeronáutica y el Espacio (NASA) (anteriormente Centro de Investigación de Vuelo Dryden) incluye los
+                Sistemas Inteligentes de Control de Vuelo (IFCS). El objetivo de este proyecto es desarrollar un sistema
+                de control de vuelo adaptativo basado en redes neuronales. Aplicado directamente a los errores de
+                retroalimentación del sistema de control de vuelo, el IFCS proporciona ajustes para mejorar el
+                rendimiento de la aeronave en vuelo normal, así como en caso de fallos del sistema. Con el IFCS, un
+                piloto puede mantener el control y aterrizar de manera segura una aeronave que haya sufrido una falla en
+                una superficie de control o daños en el fuselaje. También mejora la capacidad de la misión, aumenta la
+                confiabilidad y seguridad del vuelo, y alivia la carga de trabajo del piloto.</p>
+            <p>Las aeronaves de hoy en día emplean una variedad de sistemas de control de vuelo. Por ejemplo, algunas
+                aeronaves de la categoría de piloto deportivo se basan en el control por desplazamiento de peso para
+                volar, mientras que los globos utilizan una técnica de quemador estándar. Los helicópteros utilizan un
+                cíclico para inclinar el rotor en la dirección deseada junto con un colectivo para manipular el paso del
+                rotor y pedales antipar para controlar la guiñada.</p>
+            <p>Para obtener información adicional sobre los sistemas de control de vuelo, consulte el manual apropiado
+                para obtener información relacionada con los sistemas y características de control de vuelo de tipos
+                específicos de aeronaves.</p>
+            <h2>Sistemas de Control de Vuelo</h2>
+            <p>Los sistemas de control de vuelo de las aeronaves constan de sistemas primarios y secundarios. Los
+                alerones, el elevador (o estabilizador) y el timón de dirección (rudder) constituyen el sistema de
+                control primario y son necesarios para controlar una aeronave de forma segura durante el vuelo. Los
+                flaps de las alas, los dispositivos de borde de ataque, los spoilers y los sistemas de compensación
+                (trim) constituyen el sistema de control secundario y mejoran las características de rendimiento del
+                avión o alivian al piloto de fuerzas de control excesivas.</p>
+            <h2>Controles de Vuelo Primarios</h2>
+            <p>Los sistemas de control de aeronaves están cuidadosamente diseñados para proporcionar una respuesta
+                adecuada a las entradas de control al mismo tiempo que permiten una sensación natural. A bajas
+                velocidades aerodinámicas, los controles suelen sentirse suaves y lentos, y la aeronave responde
+                lentamente a las aplicaciones de control. A velocidades aerodinámicas más altas, los controles se
+                vuelven cada vez más firmes y la respuesta de la aeronave es más rápida.</p>
+            <p>El movimiento de cualquiera de las tres superficies de control de vuelo primarias (alerones, elevador o
+                estabilizador, o timón de dirección), cambia el flujo de aire y la distribución de presión sobre y
+                alrededor del perfil alar. Estos cambios afectan la sustentación y la resistencia producidas por la
+                combinación perfil alar/superficie de control, y permiten a un piloto controlar la aeronave alrededor de
+                sus tres ejes de rotación.</p>
+            <p>Las características de diseño limitan la cantidad de deflexión de las superficies de control de vuelo.
+                Por ejemplo, se pueden incorporar mecanismos de tope de control en los varillajes de control de vuelo, o
+                el movimiento de la columna de control y/o los pedales del timón puede estar limitado. El propósito de
+                estos límites de diseño es evitar que el piloto sobrecontrole y sobreestrese inadvertidamente la
+                aeronave durante las maniobras normales.</p>
+            <p>Una aeronave correctamente diseñada es estable y fácil de controlar durante las maniobras normales. Las
+                entradas en las superficies de control provocan movimiento alrededor de los tres ejes de rotación. Los
+                tipos de estabilidad que exhibe una aeronave también se relacionan con los tres ejes de rotación.</p>
+            <h2>Alerones</h2>
+            <p>Los alerones controlan el alabeo (roll) alrededor del eje longitudinal. Los alerones están unidos al
+                borde de salida exterior de cada ala y se mueven en dirección opuesta entre sí. Los alerones están
+                conectados mediante cables, palancas acodadas, poleas y/o tubos de empuje-tracción a una rueda de
+                control o a una palanca de control.</p>
+            <p>Mover la rueda de control, o la palanca de control, hacia la derecha hace que el alerón derecho se desvíe
+                hacia arriba y el alerón izquierdo se desvíe hacia abajo. la deflexión hacia arriba del alerón derecho
+                disminuye la curvatura, lo que resulta en una menor sustentación en el ala derecha. La correspondiente
+                deflexión hacia abajo del alerón izquierdo aumenta la curvatura, lo que resulta en una mayor
+                sustentación en el ala izquierda. Por lo tanto, el aumento de sustentación en el ala izquierda y la
+                disminución de sustentación en el ala derecha hacen que la aeronave ruede hacia la derecha.</p>
+            <h2>Guiñada Adversa (Adverse Yaw)</h2>
+            <p>Dado que el alerón desviado hacia abajo produce más sustentación, como lo demuestra el levantamiento del
+                ala, también produce más resistencia (drag). Esta resistencia adicional hace que el ala se desacelere
+                ligeramente. Esto resulta en que la aeronave guine hacia el ala que ha experimentado un aumento de
+                sustentación (y resistencia). Desde la perspectiva del piloto, la guiñada es opuesta a la dirección del
+                viraje. La guiñada adversa es el resultado de la resistencia diferencial y la ligera diferencia en la
+                velocidad de las alas izquierda y derecha.</p>
+            <p>La guiñada adversa se vuelve más pronunciada a bajas velocidades aerodinámicas. A estas velocidades más
+                lentas, la presión aerodinámica sobre las superficies de control es baja y se requieren mayores entradas
+                de control para maniobrar la aeronave de manera efectiva. Como resultado, el aumento en la deflexión de
+                los alerones provoca un aumento de la guiñada adversa. La guiñada es especialmente evidente en aeronaves
+                con grandes envergaduras.</p>
+            <p>La aplicación del timón de dirección se utiliza para contrarrestar la guiñada adversa. La cantidad de
+                control del timón requerida es mayor a bajas velocidades aerodinámicas, altos ángulos de ataque y con
+                grandes deflexiones de los alerones. Al igual que todas las superficies de control a velocidades
+                aerodinámicas más bajas, el estabilizador vertical/timón de dirección se vuelve menos efectivo y
+                magnifica los problemas de control asociados con la guiñada adversa.</p>
+            <p>Todos los virajes se coordinan mediante el uso de alerones, timón de dirección y elevador. Es necesaria
+                la aplicación de presión sobre los alerones para colocar la aeronave en el ángulo de alabeo deseado,
+                mientras que la aplicación simultánea de presión sobre el timón de dirección es necesaria para
+                contrarrestar la guiñada adversa resultante. Además, debido a que se requiere más sustentación durante
+                un viraje que durante un vuelo recto y nivelado, el ángulo de ataque (AOA) debe aumentarse aplicando
+                presión hacia atrás en el elevador. Cuanto más pronunciado sea el viraje, más presión hacia atrás en el
+                elevador será necesaria.</p>
+            <p>Una vez que se establece el ángulo de alabeo deseado, las presiones de los alerones y el timón de
+                dirección deben relajarse. Esto evita que el ángulo de alabeo aumente, ya que las superficies de control
+                de los alerones y el timón de dirección están en una posición neutral y aerodinámica. La presión hacia
+                atrás del elevador debe mantenerse constante para mantener la altitud.</p>
+            <p>La salida de un viraje es similar a la entrada, excepto que los controles de vuelo se aplican en la
+                dirección opuesta. El alerón y el timón de dirección se aplican en la dirección de la salida del alabeo
+                o hacia el ala alta. A medida que el ángulo de alabeo disminuye, la presión hacia atrás del elevador
+                debe relajarse según sea necesario para mantener la altitud.</p>
+            <p>En un intento de reducir los efectos de la guiñada adversa, los fabricantes han diseñado cuatro sistemas:
+                alerones diferenciales, alerones tipo Frise, alerones y timón acoplados y flaperones.</p>
+            <h2>Alerones Diferenciales</h2>
+            <p>Con los alerones diferenciales, un alerón se levanta una distancia mayor que el otro alerón que se baja
+                para un movimiento dado de la rueda de control o la palanca de control. Esto produce un aumento de
+                resistencia en el ala que desciende. La mayor resistencia resulta de desviar el alerón ascendente en el
+                ala descendente a un ángulo mayor que el alerón descendente en el ala ascendente. Si bien se reduce la
+                guiñada adversa, no se elimina por completo.</p>
+            <h2>Alerones Tipo Frise</h2>
+            <p>Con un alerón tipo Frise, cuando se aplica presión a la rueda de control, o a la palanca de control, el
+                alerón que se está levantando gira sobre una bisagra desplazada. Esto proyecta el borde de ataque del
+                alerón hacia el flujo de aire y crea resistencia. Ayuda a igualar la resistencia creada por el alerón
+                bajado en el ala opuesta y reduce la guiñada adversa.</p>
+            <p>El alerón tipo Frise también forma una ranura para que el aire fluya suavemente sobre el alerón bajado,
+                haciéndolo más efectivo en ángulos de ataque altos. Los alerones tipo Frise también pueden diseñarse
+                para funcionar de forma diferencial. Al igual que el alerón diferencial, el alerón tipo Frise no elimina
+                la guiñada adversa por completo. Aún se necesita la aplicación coordinada del timón de dirección cuando
+                se aplican los alerones.</p>
+            <h2>Alerones y Timón Acoplados</h2>
+            <p>Los alerones y el timón acoplados son controles vinculados. Esto se logra con resortes de interconexión
+                alerón-timón, que ayudan a corregir la resistencia del alerón al desviar automáticamente el timón al
+                mismo tiempo que se desvían los alerones. Por ejemplo, cuando la rueda de control, o la palanca de
+                control, se mueve para producir un alabeo a la izquierda, el cable de interconexión y el resorte tiran
+                hacia adelante del pedal izquierdo del timón lo suficiente como para evitar que la nariz de la aeronave
+                guine hacia la derecha. La fuerza aplicada al timón por los resortes puede anularse si es necesario
+                deslizar la aeronave (slip).</p>
+            <h2>Flaperones</h2>
+            <p>Los flaperones combinan ambos aspectos de flaps y alerones. Además de controlar el ángulo de alabeo de
+                una aeronave como los alerones convencionales, los flaperones se pueden bajar juntos para funcionar de
+                manera muy similar a un conjunto dedicado de flaps. El piloto conserva controles separados para alerones
+                y flaps. Se utiliza un mezclador para combinar las entradas separadas del piloto en este único conjunto
+                de superficies de control llamado flaperones. Muchos diseños que incorporan flaperones montan las
+                superficies de control separadas del ala para proporcionar un flujo de aire sin perturbaciones en
+                ángulos de ataque altos y/o bajas velocidades aerodinámicas.</p>
+            <h2>Elevador</h2>
+            <p>El elevador controla el cabeceo (pitch) alrededor del eje lateral. Al igual que los alerones en aeronaves
+                pequeñas, el elevador está conectado a la columna de control en la cabina de vuelo mediante una serie de
+                varillajes mecánicos. El movimiento hacia atrás de la columna de control desvía el borde de salida de la
+                superficie del elevador hacia arriba. Esto generalmente se denomina posición de elevador hacia arriba.
+            </p>
+            <p>La posición de elevador hacia arriba disminuye la curvatura del elevador y crea una fuerza aerodinámica
+                hacia abajo, que es mayor que la fuerza normal hacia abajo de la cola que existe en el vuelo recto y
+                nivelado. El efecto general hace que la cola de la aeronave se mueva hacia abajo y la nariz cabecee
+                hacia arriba. El momento de cabeceo ocurre alrededor del centro de gravedad (CG). La fuerza del momento
+                de cabeceo está determinada por la distancia entre el CG y la superficie horizontal de la cola, así como
+                por la efectividad aerodinámica de la superficie horizontal de la cola.</p>
+            <p>Mover la columna de control hacia adelante tiene el efecto opuesto. En este caso, la curvatura del
+                elevador aumenta, creando más sustentación (menos fuerza hacia debajo de la cola) en el estabilizador
+                horizontal/elevador. Esto mueve la cola hacia arriba y cabecea la nariz hacia abajo. Nuevamente, el
+                momento de cabeceo ocurre alrededor del CG.</p>
+            <p>Como se mencionó anteriormente, la estabilidad, la potencia, la línea de empuje y la posición de las
+                superficies horizontales de la cola en el empenaje son factores en la efectividad del elevador para
+                controlar el cabeceo. Por ejemplo, las superficies horizontales de la cola pueden estar unidas cerca de
+                la parte inferior del estabilizador vertical, en el punto medio o en el punto alto, como en el diseño de
+                cola en T (T-Tail).</p>
+            <h2>Cola en T (T-Tail)</h2>
+            <p>En una configuración de cola en T, el elevador está por encima de la mayoría de los efectos del rebufo de
+                la hélice, así como del flujo de aire alrededor del fuselaje y/o las alas durante las condiciones
+                normales de vuelo. El funcionamiento de los elevadores en este aire no perturbado permite movimientos de
+                control que son consistentes en la mayoría de los regímenes de vuelo. Los diseños de cola en T se han
+                vuelto populares en muchas aeronaves ligeras y grandes, especialmente aquellas con motores montados en
+                la parte trasera del fuselaje porque la configuración de cola en T aleja la cola del chorro de escape de
+                los motores. Los hidroaviones y los anfibios a menudo tienen colas en T para mantener las superficies
+                horizontales lo más lejos posible del agua. Un beneficio adicional es la reducción de ruido y vibración
+                dentro de la aeronave.</p>
+            <p>En comparación con las aeronaves de cola convencional, el elevador en una aeronave de cola en T debe
+                moverse una distancia mayor para levantar la nariz una cantidad dada cuando se viaja a bajas
+                velocidades. Esto se debe a que la aeronave de cola convencional tiene el rebufo de la hélice empujando
+                hacia abajo la cola para ayudar a levantar la nariz.</p>
+            <p>Los controles de la aeronave están aparejados de modo que se requiere un aumento en la fuerza de control
+                para aumentar el recorrido del control. Las fuerzas requeridas para levantar la nariz de una aeronave de
+                cola en T son mayores que las fuerzas requeridas para levantar la nariz de una aeronave de cola
+                convencional.</p>
+            <p>La estabilidad longitudinal de una aeronave compensada es la misma para ambos tipos de configuración,
+                pero el piloto debe ser consciente de que las fuerzas de control requeridas son mayores a bajas
+                velocidades durante los despegues, aterrizajes o pérdidas (stalls) que para aeronaves de tamaño similar
+                equipadas con colas convencionales.</p>
+            <p>Las aeronaves de cola en T también requieren consideraciones de diseño adicionales para contrarrestar el
+                problema del aleteo (flutter). Dado que el peso de las superficies horizontales está en la parte
+                superior del estabilizador vertical, el brazo de momento creado causa grandes cargas en el estabilizador
+                vertical que pueden provocar aleteo. Los ingenieros deben compensar esto aumentando la rigidez de diseño
+                del estabilizador vertical, lo que generalmente resulta en una penalización de peso sobre los diseños de
+                cola convencionales.</p>
+            <p>Al volar con un ángulo de ataque (AOA) muy alto con una baja velocidad aerodinámica y un CG retrasado, la
+                aeronave de cola en T puede ser más susceptible a una pérdida profunda (deep stall). En esta condición,
+                la estela del ala incide sobre la superficie de la cola y la vuelve casi ineficaz. El ala, si está
+                completamente en pérdida, permite que su flujo de aire se separe justo después del borde de ataque. La
+                amplia estela de aire turbulento y desacelerado blanquea la cola horizontal y, por lo tanto, su
+                efectividad disminuye significativamente. En estas circunstancias, el control del elevador o
+                estabilizador se reduce (o quizás se elimina) dificultando la recuperación de la pérdida. Cabe señalar
+                que un CG retrasado es a menudo un factor contribuyente en estos incidentes, ya que también se
+                encuentran problemas de recuperación similares con aeronaves de cola convencional con un CG retrasado.
+            </p>
+            <p>Las pérdidas profundas pueden ocurrir en cualquier aeronave, pero son más probables en aeronaves con
+                colas en “T”, ya que un AOA alto puede ser más propenso a colocar el flujo de aire separado de las alas
+                en el camino de la superficie horizontal de la cola. Además, la distancia entre las alas y la cola, la
+                posición de los motores (como estar montados en la cola) pueden aumentar la susceptibilidad a los
+                eventos de pérdida profunda. Por lo tanto, una pérdida profunda puede ser más frecuente en aeronaves de
+                transporte que en aeronaves de aviación general.</p>
+            <p>Dado que el vuelo con un AOA alto, una baja velocidad aerodinámica y una posición de CG retrasada puede
+                ser peligroso, muchas aeronaves tienen sistemas para compensar esta situación. Los sistemas varían desde
+                topes de control hasta resortes descendentes del elevador (elevator down springs). En los jets de
+                categoría de transporte, se utilizan comúnmente empujadores de palanca (stick pushers). Un resorte
+                descendente del elevador ayuda a bajar la nariz de la aeronave para prevenir una pérdida causada por la
+                posición del CG retrasada. La pérdida ocurre porque el avión correctamente compensado está volando con
+                el elevador en una posición de borde de salida hacia abajo, forzando la cola hacia arriba y la nariz
+                hacia abajo. En esta condición inestable, si la aeronave encuentra turbulencia y se desacelera aún más,
+                la aleta de compensación (trim tab) ya no posiciona el elevador en la posición de nariz hacia abajo. El
+                elevador entonces se aerodinamiza y la nariz de la aeronave cabecea hacia arriba, lo que posiblemente
+                resulte en una pérdida.</p>
+            <p>El resorte descendente del elevador produce una carga mecánica en el elevador, lo que hace que se mueva
+                hacia la posición de nariz hacia abajo si no está equilibrado de otra manera. La aleta de compensación
+                del elevador equilibra el reso</p>
+
+
+
+
             <p>Contenido pendiente para el Capítulo 13.</p>
-            
+
             <div class="media-container">
                 [Espacio para Imagen/Video/Animación]
             </div>
@@ -68,7 +304,7 @@
         </div>
     </main>
 
-        <footer>
+    <footer>
         <p>&copy; 2025 VHHI</p>
     </footer>
 
@@ -78,4 +314,5 @@
 
     <script src="src/js/main.js"></script>
 </body>
+
 </html>
