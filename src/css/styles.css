@@ -417,3 +417,68 @@ figcaption {
         flex: 2;
     }
 }
+
+/* Update Styles for New Navigation */
+/* Header Controls */
+.header-controls {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.search-btn {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: var(--white);
+    transition: transform 0.2s;
+}
+
+.search-btn:hover {
+    transform: scale(1.1);
+}
+
+.lang-btn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: bold;
+}
+
+/* Sidebar Dropdown */
+.chapter-dropdown details summary {
+    cursor: pointer;
+    padding: var(--spacing-sm);
+    color: var(--white);
+    list-style: none; /* Remove default triangle */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+    transition: background-color var(--transition-speed);
+}
+
+.chapter-dropdown details summary:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.chapter-dropdown details summary::after {
+    content: '▾';
+    margin-left: 5px;
+}
+
+.chapter-dropdown details[open] summary::after {
+    content: '▴';
+}
+
+.dropdown-list {
+    padding-left: 15px !important;
+    margin-top: 5px;
+    border-left: 2px solid rgba(255,255,255,0.1);
+}
+
+.dropdown-list li a {
+    font-size: 0.9em;
+    padding: 6px 8px !important;
+}
