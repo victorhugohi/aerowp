@@ -13,8 +13,13 @@
             <span>✈️</span> AeroWP
         </div></a>
         <button class="menu-toggle">☰</button>
-        <div class="lang-switch">
-            <a href="en/chapter3.html" class="btn" style="padding: 5px 10px; font-size: 0.8rem;">EN</a>
+        <div class="header-controls" style="display: flex; gap: 10px; align-items: center;">
+            <button class="search-btn" style="background:none; border:none; font-size: 1.2rem; cursor: pointer;">🔍</button>
+            <div class="lang-switch">
+                <a href="en/chapter3.html" class="btn lang-btn" style="padding: 5px 10px; font-size: 0.9rem; display: flex; align-items: center; gap: 5px;">
+                    🇺🇸 EN
+                </a>
+            </div>
         </div>
     </header>
 
@@ -24,30 +29,39 @@
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="carrera.html">Carrera</a></li>
                 <li><a href="topics.html">Temas</a></li>
-                <li><a href="gallery.html">Galería</a></li>
+                                                <li><a href="gallery.html">Galería</a></li>
+                <li><a href="formulas.html">Fórmulas</a></li>
+                <li><a href="relations.html">Relación de Materias</a></li>
                 <li><hr style="border-color: rgba(255,255,255,0.1);"></li>
-                <li><a href="chapter1.html">Capítulo 1</a></li>
-                <li><a href="chapter2.html">Capítulo 2</a></li>
-                <li><a href="chapter3.html">Capítulo 3</a></li>
-                <li><a href="chapter4.html">Capítulo 4</a></li>
-                <li><a href="chapter5.html">Capítulo 5</a></li>
-                <li><a href="chapter6.html">Capítulo 6</a></li>
-                <li><a href="chapter7.html">Capítulo 7</a></li>
-                <li><a href="chapter8.html">Capítulo 8</a></li>
-                <li><a href="chapter9.html">Capítulo 9</a></li>
-                <li><a href="chapter10.html">Capítulo 10</a></li>
-                <li><a href="chapter11.html">Capítulo 11</a></li>
-                <li><a href="chapter12.html">Capítulo 12</a></li>
-                <li><a href="chapter13.html">Capítulo 13</a></li>
-                <li><a href="chapter14.html">Capítulo 14</a></li>
-                <li><a href="chapter15.html">Capítulo 15</a></li>
-                <li><a href="chapter16.html">Capítulo 16</a></li>
-                <li><a href="chapter17.html">Capítulo 17</a></li>
-                <li><a href="chapter18.html">Capítulo 18</a></li>
-                <li><a href="chapter19.html">Capítulo 19</a></li>
-                <li><a href="chapter20.html">Capítulo 20</a></li>
+                <li class="chapter-dropdown">
+                    <details>
+                        <summary>Capítulos ▾</summary>
+                        <ul class="dropdown-list">
+                            <li><a href="chapter1.html">Capítulo 1</a></li>
+                            <li><a href="chapter2.html">Capítulo 2</a></li>
+                            <li><a href="chapter3.html">Capítulo 3</a></li>
+                            <li><a href="chapter4.html">Capítulo 4</a></li>
+                            <li><a href="chapter5.html">Capítulo 5</a></li>
+                            <li><a href="chapter6.html">Capítulo 6</a></li>
+                            <li><a href="chapter7.html">Capítulo 7</a></li>
+                            <li><a href="chapter8.html">Capítulo 8</a></li>
+                            <li><a href="chapter9.html">Capítulo 9</a></li>
+                            <li><a href="chapter10.html">Capítulo 10</a></li>
+                            <li><a href="chapter11.html">Capítulo 11</a></li>
+                            <li><a href="chapter12.html">Capítulo 12</a></li>
+                            <li><a href="chapter13.html">Capítulo 13</a></li>
+                            <li><a href="chapter14.html">Capítulo 14</a></li>
+                            <li><a href="chapter15.html">Capítulo 15</a></li>
+                            <li><a href="chapter16.html">Capítulo 16</a></li>
+                            <li><a href="chapter17.html">Capítulo 17</a></li>
+                            <li><a href="chapter18.html">Capítulo 18</a></li>
+                            <li><a href="chapter19.html">Capítulo 19</a></li>
+                            <li><a href="chapter20.html">Capítulo 20</a></li>
+                        </ul>
+                    </details>
+                </li>
                 <li><a href="glossary.html">Glosario
-                </a></li>
+                    </a></li>
                 <li><hr style="border-color: rgba(255,255,255,0.1);"></li>
                 <li><a href="contact.html">Contacto</a></li>
                 <li><a href="about.html">Acerca de</a></li>
@@ -65,8 +79,12 @@
             </div>
 
             <p>Texto explicativo adicional...</p>
+            <div style="margin-top: 30px; text-align: center;">
+                <a href="gallery.html#chapter3" class="btn">🖼️ Ver Galería del Capítulo 3</a>
+            </div>
+        
         </div>
-    </main>
+        </main>
 
         <footer>
         <p>&copy; 2025 VHHI</p>

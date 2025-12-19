@@ -1,20 +1,33 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Capítulo 1 - Seguridad, Operaciones en Tierra y Servicio</title>
     <link rel="stylesheet" href="src/css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&family=Oswald:wght@500&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <header>
-        <a href="index.html" class="logo-link" style="text-decoration: none; color: inherit;"><div class="logo-area">
-            <span>✈️</span> AeroWP
-        </div></a>
+        <a href="index.html" class="logo-link" style="text-decoration: none; color: inherit;">
+            <div class="logo-area">
+                <span>✈️</span> AeroWP
+            </div>
+        </a>
         <button class="menu-toggle">☰</button>
-        <div class="lang-switch">
-            <a href="en/chapter1.html" class="btn" style="padding: 5px 10px; font-size: 0.8rem;">EN</a>
+        <div class="header-controls" style="display: flex; gap: 10px; align-items: center;">
+            <button class="search-btn"
+                style="background:none; border:none; font-size: 1.2rem; cursor: pointer;">🔍</button>
+            <div class="lang-switch">
+                <a href="en/chapter1.html" class="btn lang-btn"
+                    style="padding: 5px 10px; font-size: 0.9rem; display: flex; align-items: center; gap: 5px;">
+                    🇺🇸 EN
+                </a>
+            </div>
         </div>
     </header>
 
@@ -25,30 +38,43 @@
                 <li><a href="carrera.html">Carrera</a></li>
                 <li><a href="topics.html">Temas</a></li>
                 <li><a href="gallery.html">Galería</a></li>
-                <li><hr style="border-color: rgba(255,255,255,0.1);"></li>
-                <li><a href="chapter1.html">Capítulo 1</a></li>
-                <li><a href="chapter2.html">Capítulo 2</a></li>
-                <li><a href="chapter3.html">Capítulo 3</a></li>
-                <li><a href="chapter4.html">Capítulo 4</a></li>
-                <li><a href="chapter5.html">Capítulo 5</a></li>
-                <li><a href="chapter6.html">Capítulo 6</a></li>
-                <li><a href="chapter7.html">Capítulo 7</a></li>
-                <li><a href="chapter8.html">Capítulo 8</a></li>
-                <li><a href="chapter9.html">Capítulo 9</a></li>
-                <li><a href="chapter10.html">Capítulo 10</a></li>
-                <li><a href="chapter11.html">Capítulo 11</a></li>
-                <li><a href="chapter12.html">Capítulo 12</a></li>
-                <li><a href="chapter13.html">Capítulo 13</a></li>
-                <li><a href="chapter14.html">Capítulo 14</a></li>
-                <li><a href="chapter15.html">Capítulo 15</a></li>
-                <li><a href="chapter16.html">Capítulo 16</a></li>
-                <li><a href="chapter17.html">Capítulo 17</a></li>
-                <li><a href="chapter18.html">Capítulo 18</a></li>
-                <li><a href="chapter19.html">Capítulo 19</a></li>
-                <li><a href="chapter20.html">Capítulo 20</a></li>
+                <li><a href="formulas.html">Fórmulas</a></li>
+                <li><a href="relations.html">Relación de Materias</a></li>
+                <li>
+                    <hr style="border-color: rgba(255,255,255,0.1);">
+                </li>
+                <li class="chapter-dropdown">
+                    <details>
+                        <summary>Capítulos ▾</summary>
+                        <ul class="dropdown-list">
+                            <li><a href="chapter1.html">Capítulo 1</a></li>
+                            <li><a href="chapter2.html">Capítulo 2</a></li>
+                            <li><a href="chapter3.html">Capítulo 3</a></li>
+                            <li><a href="chapter4.html">Capítulo 4</a></li>
+                            <li><a href="chapter5.html">Capítulo 5</a></li>
+                            <li><a href="chapter6.html">Capítulo 6</a></li>
+                            <li><a href="chapter7.html">Capítulo 7</a></li>
+                            <li><a href="chapter8.html">Capítulo 8</a></li>
+                            <li><a href="chapter9.html">Capítulo 9</a></li>
+                            <li><a href="chapter10.html">Capítulo 10</a></li>
+                            <li><a href="chapter11.html">Capítulo 11</a></li>
+                            <li><a href="chapter12.html">Capítulo 12</a></li>
+                            <li><a href="chapter13.html">Capítulo 13</a></li>
+                            <li><a href="chapter14.html">Capítulo 14</a></li>
+                            <li><a href="chapter15.html">Capítulo 15</a></li>
+                            <li><a href="chapter16.html">Capítulo 16</a></li>
+                            <li><a href="chapter17.html">Capítulo 17</a></li>
+                            <li><a href="chapter18.html">Capítulo 18</a></li>
+                            <li><a href="chapter19.html">Capítulo 19</a></li>
+                            <li><a href="chapter20.html">Capítulo 20</a></li>
+                        </ul>
+                    </details>
+                </li>
                 <li><a href="glossary.html">Glosario
-                </a></li>
-                <li><hr style="border-color: rgba(255,255,255,0.1);"></li>
+                    </a></li>
+                <li>
+                    <hr style="border-color: rgba(255,255,255,0.1);">
+                </li>
                 <li><a href="contact.html">Contacto</a></li>
                 <li><a href="about.html">Acerca de</a></li>
             </ul>
@@ -57,18 +83,614 @@
 
     <main>
         <div class="card">
-            <h1>Seguridad, Operaciones en Tierra y Servicio</h1>
-            <p>Contenido pendiente para el Capítulo 1.</p>
-            
+            <h1>Capítulo 1: Seguridad, Operaciones en Tierra y Servicio</h1>
+
+            <p>Los técnicos de mantenimiento de aeronaves (TMA) dedican una parte importante de su carrera a las
+                operaciones en tierra y al manejo de aeronaves. Es fundamental que posean un conocimiento detallado de
+                los procedimientos de seguridad utilizados en el servicio de aeronaves, rodaje, pruebas de motor y uso
+                de equipos de apoyo en tierra. Además, deben comprender cómo los factores humanos —como la fatiga, la
+                presión por cumplir plazos, el estrés, las distracciones y la complacencia— pueden afectar su desempeño
+                y seguridad durante las tareas de mantenimiento.</p>
+
             <div class="media-container">
                 [Espacio para Imagen/Video/Animación]
             </div>
 
+            <!-- SECCIÓN 1: SEGURIDAD EN EL TALLER -->
+            <h2>1. Seguridad en el Taller</h2>
+            <p>Mantener el taller, los hangares y la línea de vuelo limpios es esencial para la seguridad y el
+                mantenimiento eficiente. Se deben observar los más altos estándares de orden y limpieza durante el
+                mantenimiento de aeronaves. Los turnos salientes deben retirar y almacenar correctamente las
+                herramientas personales, cajas rodantes, soportes de trabajo, mangueras, cables eléctricos, polipastos,
+                cajas y embalajes. Se colocan letreros para indicar equipos peligrosos o condiciones de riesgo, así como
+                la ubicación de equipos de primeros auxilios y contra incendios.</p>
+            <p>La seguridad es responsabilidad de todos. Los técnicos y supervisores deben velar por su propia seguridad
+                y la de quienes trabajan a su alrededor. La comunicación es clave: si otros trabajadores realizan
+                acciones de manera insegura, se les debe recordar sobre su seguridad y la de los demás.</p>
+
+            <!-- 1.1 Seguridad Eléctrica -->
+            <h3>1.1 Seguridad Eléctrica</h3>
+            <p>Trabajar con equipos eléctricos presenta ciertos riesgos fisiológicos. La electricidad aplicada al cuerpo
+                humano puede causar quemaduras severas en el punto de entrada y salida, además de dañar o destruir el
+                sistema nervioso. Para trabajar de manera segura con electricidad, el técnico debe tener conocimientos
+                sólidos sobre los principios eléctricos y un respeto saludable por su capacidad de causar daño.</p>
+            <p>El uso de equipo de seguridad apropiado —como guantes de goma, gafas de seguridad y tapetes de seguridad
+                conectados a tierra— proporciona protección física y psicológica. Dos factores que afectan la seguridad
+                al trabajar con electricidad son el miedo y el exceso de confianza; ambos son causas principales de
+                accidentes eléctricos. La falta de conocimiento lleva a la falta de respeto, mientras que el exceso de
+                confianza conduce a la toma de riesgos innecesarios.</p>
+
+            <!-- 1.2 Seguridad Contra Incendios (Eléctrica) -->
+            <h3>1.2 Seguridad Contra Incendios por Causas Eléctricas</h3>
+            <p>Cada vez que fluye corriente eléctrica, se genera calor como subproducto. A mayor flujo de corriente,
+                mayor cantidad de calor. Cuando este calor se vuelve excesivo, los recubrimientos protectores de los
+                cables pueden derretirse, causando cortocircuitos que generan aún más calor. Esto puede provocar que los
+                metales se derritan, los líquidos se vaporicen y las sustancias inflamables se enciendan.</p>
+            <p>Para prevenir incendios eléctricos, es fundamental mantener el área alrededor de los trabajos eléctricos
+                limpia, ordenada y libre de sustancias inflamables innecesarias. Nunca coloque cables donde puedan ser
+                pisados o atropellados por otros equipos, y monitoree de cerca el estado de los equipos eléctricos,
+                reparando o reemplazando los equipos dañados antes de usarlos nuevamente.</p>
+
+            <!-- 1.3 Seguridad con Gases Comprimidos -->
+            <h3>1.3 Seguridad con Gases Comprimidos</h3>
+            <p>El aire comprimido, al igual que la electricidad, es una excelente herramienta cuando está bajo control.
+                Al trabajar con gases comprimidos, se deben inspeccionar las mangueras frecuentemente en busca de
+                roturas y desgaste, reemplazándolas inmediatamente si no son seguras. Todas las conexiones deben
+                mantenerse sin fugas y los sistemas deben tener sumideros de agua instalados que se drenen regularmente.
+            </p>
+            <p>Nunca use aire comprimido para limpiar manos o ropa, ya que la presión puede forzar residuos hacia la
+                piel causando infecciones. Tampoco rocíe aire comprimido cerca de otras personas. Muchos accidentes con
+                gases comprimidos ocurren durante el montaje de neumáticos de aeronaves; siempre use protectores de
+                jaula para neumáticos y reguladores de presión para evitar la sobreinflación.</p>
+
+            <!-- 1.4 Seguridad con Materiales Peligrosos -->
+            <h3>1.4 Seguridad con Materiales Peligrosos</h3>
+            <p>Los diamantes de seguridad de materiales son importantes para la seguridad en el taller. Estas etiquetas
+                en forma de diamante son una manera simple y rápida de determinar el riesgo del material peligroso. El
+                diamante de riesgo tiene cuatro segmentos de colores: inflamabilidad (rojo), reactividad (amarillo),
+                salud (azul) y peligro especial (blanco). Los números del 0 al 4 indican el nivel de peligro, donde 0
+                representa poco o ningún peligro y 4 significa que el material es muy peligroso.</p>
+            <p>Las Hojas de Datos de Seguridad (SDS, por sus siglas en inglés) proporcionan información más detallada
+                sobre los problemas de seguridad química, incluyendo fórmulas y acciones a tomar si el personal entra en
+                contacto con los químicos. Estas hojas son necesarias para un taller seguro que cumpla con todos los
+                requisitos de la Administración de Seguridad y Salud Ocupacional (OSHA).</p>
+
+            <!-- 1.5 Seguridad con Máquinas Herramienta -->
+            <h3>1.5 Seguridad con Máquinas Herramienta</h3>
+            <p>Los peligros en un taller aumentan cuando se utilizan tornos, taladros de columna, esmeriles y otros
+                tipos de máquinas. Cada máquina tiene sus propias prácticas de seguridad. Para el taladro de columna:
+                use protección ocular, sujete firmemente el trabajo, configure las RPM apropiadas y detenga la máquina
+                antes de ajustar o intentar remover trabajo atascado.</p>
+            <p>Para los tornos: use herramientas de corte afiladas, permita que el mandril se detenga solo sin intentar
+                frenarlo con la mano, y nunca coloque herramientas sobre el torno. Para las fresadoras: limpie la mesa
+                de trabajo antes de comenzar, asegure el trabajo a la mesa y no cambie la velocidad de avance mientras
+                trabaja. Para los esmeriles: inspeccione la rueda en busca de defectos antes de usarla, nunca fuerce las
+                ruedas en el eje y no se pare en el arco de la rueda mientras opera.</p>
+
+            <!-- 1.6 Seguridad en Soldadura -->
+            <h3>1.6 Seguridad en Soldadura</h3>
+            <p>La soldadura debe realizarse únicamente en áreas designadas. Cualquier parte que necesite ser soldada
+                debe retirarse de la aeronave si es posible. Un taller de soldadura debe estar equipado con mesas
+                apropiadas, ventilación, almacenamiento de herramientas y equipo de prevención y extinción de incendios.
+            </p>
+            <p>Si es necesario soldar en el hangar, se deben observar precauciones estrictas: no se permiten tanques de
+                combustible abiertos ni trabajos en sistemas de combustible, no se permite pintar, ninguna aeronave debe
+                estar a menos de 35 pies de la operación de soldadura, solo soldadores calificados pueden realizar el
+                trabajo, y el área debe estar acordonada y señalizada. Se requieren extintores con clasificación mínima
+                de 20B en el área inmediata y vigilantes de fuego capacitados deben estar presentes.</p>
+
+            <!-- SECCIÓN 2: SEGURIDAD EN LA LÍNEA DE VUELO -->
+            <h2>2. Seguridad en la Línea de Vuelo</h2>
+
+            <!-- 2.1 Protección Auditiva -->
+            <h3>2.1 Protección Auditiva</h3>
+            <p>La línea de vuelo es un lugar de actividad peligrosa donde los técnicos deben estar constantemente
+                conscientes de lo que sucede a su alrededor. El ruido proviene de múltiples fuentes: aeronaves, unidades
+                de potencia auxiliar (APU), camiones de combustible, equipos de manejo de equipaje, etc. Combinados,
+                estos ruidos pueden causar pérdida auditiva.</p>
+            <p>Existen muchos tipos de protección auditiva disponibles, tanto externos (orejeras o auriculares) como
+                internos (que se insertan en el canal auditivo). Ambos tipos reducen el nivel de sonido que llega al
+                tímpano. La protección auditiva es esencial cuando se trabaja con taladros neumáticos, pistolas de
+                remaches u otras herramientas ruidosas, ya que incluso exposiciones de corta duración pueden causar
+                pérdida auditiva debido a su alta frecuencia.</p>
+
+            <!-- 2.2 Daño por Objetos Extraños (FOD) -->
+            <h3>2.2 Daño por Objetos Extraños (FOD)</h3>
+            <p>El daño por objetos extraños (FOD, por sus siglas en inglés) es cualquier daño a aeronaves, personal o
+                equipo causado por objetos sueltos. Estos pueden ser concreto roto de la pista, toallas de taller,
+                alambre de seguridad, etc. Para controlar el FOD, se deben mantener limpias las áreas de rampa y
+                operaciones, implementar un programa de control de herramientas y proporcionar recipientes convenientes
+                para hardware usado, toallas y otros consumibles.</p>
+            <p>Nunca deje herramientas u otros objetos cerca de la entrada de un motor turbina. Los motores de turbina
+                modernos crean un área de baja presión frente al motor que succiona cualquier objeto suelto. El escape
+                de estos motores puede propulsar objetos a grandes distancias con suficiente fuerza para dañar lo que
+                golpeen. La importancia de un programa de FOD es crítica considerando el costo de los motores,
+                componentes y vidas humanas.</p>
+
+            <!-- 2.3 Seguridad Alrededor de Aviones -->
+            <h3>2.3 Seguridad Alrededor de Aviones</h3>
+            <p>Es importante estar siempre atento a las hélices. Los técnicos no deben asumir que el piloto de una
+                aeronave en rodaje puede verlos, y deben permanecer dentro del campo visual del piloto mientras están en
+                el área de rampa. Las entradas y escapes de motores turbina también pueden ser áreas muy peligrosas. No
+                se permite fumar ni tener llamas abiertas cerca de una aeronave en operación.</p>
+            <p>Tenga cuidado con los fluidos de aeronaves que pueden ser perjudiciales para la piel. Al operar equipos
+                de apoyo alrededor de aeronaves, asegúrese de dejar espacio entre el equipo y la aeronave, y asegúrelos
+                para que no puedan rodar hacia la aeronave. Todos los artículos en el área de aeronaves en operación
+                deben estar debidamente almacenados.</p>
+
+            <!-- 2.4 Seguridad Alrededor de Helicópteros -->
+            <h3>2.4 Seguridad Alrededor de Helicópteros</h3>
+            <p>Cada tipo de helicóptero tiene características diferentes que deben aprenderse para evitar dañar el
+                helicóptero o lesionar al técnico. Al aproximarse a un helicóptero mientras las palas están girando:
+                observe la cabeza del rotor y las palas para ver si están niveladas (esto permite máxima distancia al
+                acercarse), aproxime dentro del campo visual del piloto, y nunca lleve nada con altura vertical que las
+                palas puedan golpear.</p>
+            <p>Nunca se aproxime a un helicóptero de rotor simple por la parte trasera, ya que el rotor de cola es
+                invisible cuando está operando. Nunca pase de un lado del helicóptero al otro rodeando la cola; siempre
+                rodee por la nariz. Al asegurar el rotor en helicópteros con rodamientos elastoméricos, consulte el
+                manual de mantenimiento para el método correcto.</p>
+
+            <!-- SECCIÓN 3: SEGURIDAD CONTRA INCENDIOS -->
+            <h2>3. Seguridad Contra Incendios</h2>
+            <p>El mantenimiento de aeronaves requiere el uso de herramientas eléctricas que pueden producir chispas,
+                herramientas y equipos que producen calor, y líquidos y gases inflamables y explosivos. Como resultado,
+                existe un alto potencial de incendio. La clave para la seguridad contra incendios es el conocimiento de
+                qué causa un incendio, cómo prevenirlo y cómo apagarlo.</p>
+
+            <!-- 3.1 Requisitos para que Ocurra un Incendio -->
+            <h3>3.1 Requisitos para que Ocurra un Incendio</h3>
+            <p>Se requieren tres elementos para que exista un fuego, y al remover cualquiera de ellos, el fuego se
+                extingue: (1) Combustible: se combina con el oxígeno en presencia de calor, liberando más calor; (2)
+                Calor: acelera la combinación del oxígeno con el combustible; (3) Oxígeno: el elemento que se combina
+                químicamente con otra sustancia a través del proceso de oxidación. La oxidación rápida, acompañada de
+                liberación notable de calor y luz, se llama combustión.</p>
+
+            <!-- 3.2 Clasificación de Incendios -->
+            <h3>3.2 Clasificación de Incendios</h3>
+            <p>Para propósitos comerciales, la Asociación Nacional de Protección contra Incendios (NFPA) ha clasificado
+                los incendios en tres tipos básicos: Clase A (materiales combustibles ordinarios como madera, tela,
+                papel), Clase B (productos de petróleo inflamables, grasas, solventes, pinturas) y Clase C (equipos y
+                cableado eléctrico energizado).</p>
+            <p>Una cuarta clase, los incendios Clase D, involucra metales inflamables. Los incendios Clase D
+                generalmente involucran magnesio en el taller, en ruedas y frenos de aeronaves, o son resultado de
+                operaciones de soldadura inadecuadas. Cualquiera de estos incendios puede ocurrir durante el
+                mantenimiento u operaciones que involucren aeronaves.</p>
+
+            <!-- 3.3 Tipos de Extintores -->
+            <h3>3.3 Tipos y Operación de Extintores</h3>
+            <p><strong>Extintores de agua:</strong> Son los mejores para incendios Clase A. El agua tiene dos efectos:
+                priva al fuego de oxígeno y enfría el material. No se recomiendan para incendios Clase B (los productos
+                de petróleo flotan en el agua) y se debe tener extrema precaución con incendios Clase C (debe cortarse
+                toda la energía eléctrica). Nunca use extintores de agua en incendios Clase D, ya que el efecto de
+                enfriamiento causa expansión explosiva del metal.</p>
+            <p><strong>Extintores de CO2:</strong> Se usan para incendios Clase A, B y C, extinguiendo el fuego al
+                privarlo de oxígeno y enfriando el material. Nunca use CO2 en incendios Clase D. Al usar extintores de
+                CO2, todas las partes pueden volverse extremadamente frías; use equipo protector para prevenir lesiones
+                por frío. Tenga extrema precaución al operar extintores de CO2 en áreas cerradas, ya que tanto el fuego
+                como el operador pueden quedarse sin oxígeno.</p>
+            <p><strong>Extintores de hidrocarburos halogenados:</strong> Son más efectivos en incendios Clase B y C.
+                Pueden usarse en Clase A y D pero son menos efectivos. El Halón 1211 y Halón 1301 son los más seguros
+                para uso en aeronaves, con clasificaciones de toxicidad UL de 5 y 6 respectivamente. El Halón 1211 forma
+                un rocío similar al CO2, mientras que el Halón 1301 tiene un rocío de vapor más difícil de dirigir.
+                Nota: La EPA ha restringido el Halón debido a su efecto en la capa de ozono.</p>
+            <p><strong>Extintores de polvo seco:</strong> Son los mejores para incendios Clase D (metales inflamables),
+                aunque también son efectivos en Clase B y C. No se recomiendan para uso general en aeronaves debido a
+                que los residuos químicos pueden dañar equipos electrónicos y delicados.</p>
+
+            <!-- 3.4 Inspección e Identificación de Extintores -->
+            <h3>3.4 Inspección e Identificación de Extintores</h3>
+            <p>Los extintores deben verificarse periódicamente usando una lista de verificación que incluya: ubicación
+                correcta del extintor apropiado, sellos de seguridad intactos, ausencia de suciedad y óxido externos,
+                indicador o manómetro en rango operable, peso correcto, boquilla sin obstrucciones y ausencia de daño
+                visible.</p>
+            <p>Los extintores están marcados para indicar su idoneidad para una clase particular de incendio. Los
+                símbolos de clasificación incluyen: triángulo verde con "A" para combustibles ordinarios, cuadrado rojo
+                con "B" para líquidos inflamables, círculo azul con "C" para equipos eléctricos, y estrella amarilla con
+                "D" para metales combustibles. Las marcas deben ser visibles a una distancia de al menos 3 pies en el
+                extintor y 25 pies en las paredes.</p>
+
+            <!-- 3.5 Uso de Extintores -->
+            <h3>3.5 Uso de Extintores</h3>
+            <p>Al usar un extintor, asegúrese de que sea el tipo correcto para el incendio. La mayoría de los extintores
+                tienen un pasador que se debe jalar para permitir que la manija active el agente. Retroceda 8 pies
+                (aproximadamente 2.5 metros), apunte a la base del fuego o las llamas, apriete la palanca y barra de
+                lado a lado hasta que el fuego se extinga.</p>
+
+            <!-- SECCIÓN 4: PROCEDIMIENTOS DE AMARRE -->
+            <h2>4. Procedimientos de Amarre</h2>
+
+            <!-- 4.1 Preparación de la Aeronave -->
+            <h3>4.1 Preparación de la Aeronave</h3>
+            <p>Las aeronaves deben amarrarse después de cada vuelo para prevenir daños por tormentas repentinas. La
+                dirección de estacionamiento y amarre se determina por la dirección del viento prevaleciente o
+                pronosticado. Las aeronaves deben orientarse hacia el viento, con espacio suficiente entre puntos de
+                amarre para permitir holgura adecuada en las puntas de las alas. Después de ubicar correctamente la
+                aeronave, bloquee la rueda de nariz o de cola en posición de proa a popa.</p>
+
+            <!-- 4.2 Amarre de Aviones Terrestres -->
+            <h3>4.2 Procedimientos de Amarre para Aviones Terrestres</h3>
+            <p><strong>Aeronaves ligeras:</strong> Generalmente se aseguran con cuerdas atadas únicamente en los anillos
+                de amarre proporcionados. Nunca ate la cuerda a un montante de sustentación, ya que puede doblarse si la
+                cuerda se desliza. Dado que la cuerda de manila se encoge cuando está mojada, proporcione
+                aproximadamente 1 pulgada de holgura. Muy poca holgura permite que la aeronave tire bruscamente contra
+                las cuerdas; demasiada tensión aplica esfuerzos de vuelo invertido que muchas aeronaves no están
+                diseñadas para soportar. Use nudos antideslizantes como el as de guía (bowline).</p>
+            <p><strong>Aeronaves pesadas:</strong> Se pueden amarrar con cuerda o cable. La cantidad de amarres depende
+                de las condiciones meteorológicas anticipadas. La mayoría de las aeronaves pesadas están equipadas con
+                seguros de control de superficie que se activan cuando la aeronave se asegura. El procedimiento incluye:
+                orientar el avión hacia el viento prevaleciente, instalar seguros de control y cubiertas, calzar todas
+                las ruedas por delante y por detrás, y conectar los carretes de amarre a los puntos de amarre de la
+                aeronave usando cable de 1/4" o cuerda de manila de 1-1/2" si no hay carretes disponibles.</p>
+
+            <!-- 4.3 Amarre de Hidroaviones -->
+            <h3>4.3 Procedimientos de Amarre para Hidroaviones</h3>
+            <p>Los hidroaviones pueden amarrarse a una boya (si el clima lo permite) o atarse a un muelle. El oleaje
+                causado por el clima puede hacer que el hidroavión se balancee, lo que puede causar daños cuando está
+                atado a un muelle. Si se recibe advertencia de una tormenta inminente y no es posible volar la aeronave
+                fuera del área, algunos compartimentos pueden inundarse para hundir parcialmente la aeronave y amarrarla
+                firmemente a anclas.</p>
+            <p>Los hidroaviones amarrados en tierra se han salvado de daños por vientos fuertes llenando los flotadores
+                con agua además del amarre usual. Durante clima severo, si es posible, retire el hidroavión del agua y
+                amárrelo como un avión terrestre. Si esto no es posible, puede anclarse en un área protegida lejos del
+                viento y las olas.</p>
+
+            <!-- 4.4 Amarre de Aviones con Esquís -->
+            <h3>4.4 Procedimientos de Amarre para Aviones con Esquís</h3>
+            <p>Los aviones con esquís se amarran de la misma manera que los aviones terrestres si los medios de sujeción
+                están disponibles. Pueden asegurarse en hielo o nieve usando un dispositivo llamado "dead-man":
+                cualquier objeto disponible (tubo, tronco, etc.) al que se ata una cuerda y se entierra en una zanja de
+                nieve o hielo. Se empaca nieve en la zanja y, si está disponible, se vierte agua; cuando se congela, se
+                amarra la aeronave.</p>
+            <p>Algunos operadores empacan nieve suave alrededor de los esquís, vierten agua y permiten que los esquís se
+                congelen al hielo. Esto, además de los procedimientos usuales de amarre, ayuda a prevenir daños por
+                tormentas. Se debe tener precaución al mover una aeronave asegurada de esta manera para asegurar que un
+                esquí no esté todavía congelado al suelo.</p>
+
+            <!-- 4.5 Amarre de Helicópteros -->
+            <h3>4.5 Procedimientos de Amarre para Helicópteros</h3>
+            <p>Los helicópteros deben asegurarse en hangares cuando sea posible. Si no, deben amarrarse firmemente. Los
+                helicópteros amarrados generalmente pueden soportar vientos de hasta aproximadamente 65 mph. Si se
+                anticipan tornados o huracanes, deben evacuarse a un área segura. Para protección adicional, pueden
+                moverse a un área despejada para evitar daños por objetos voladores o ramas de árboles circundantes.</p>
+            <p>Los procedimientos típicos de amarre incluyen: orientar el helicóptero en la dirección del viento más
+                fuerte pronosticado, ubicarlo a más de una distancia de envergadura de rotor de otras aeronaves, calzar
+                todas las ruedas, alinear las palas e instalar conjuntos de amarre según las especificaciones del
+                fabricante (con cierta holgura en clima húmedo para evitar que las correas se encojan), y sujetar las
+                cuerdas de amarre a los tubos del tren de aterrizaje delantero y trasero.</p>
+
+            <!-- 4.6 Amarre de Otras Aeronaves -->
+            <h3>4.6 Procedimientos para Aeronaves de Control por Desplazamiento de Peso y Paracaídas Motorizados</h3>
+            <p><strong>Aeronaves de control por desplazamiento de peso:</strong> Son muy susceptibles a daños por
+                viento. Las alas pueden asegurarse de manera similar a una aeronave convencional en vientos ligeros. En
+                vientos fuertes, el mástil puede desconectarse del ala y colocar el ala cerca del suelo asegurada.
+                También pueden desmontarse parcialmente o moverse a un hangar.</p>
+            <p><strong>Paracaídas motorizados:</strong> El paracaídas debe empacarse en una bolsa para evitar que se
+                llene de aire del viento y arrastre el asiento y el motor. El motor y el asiento también pueden
+                asegurarse si es necesario.</p>
+
+            <!-- SECCIÓN 5: MOVIMIENTO EN TIERRA DE AERONAVES -->
+            <h2>5. Movimiento en Tierra de Aeronaves</h2>
+
+            <!-- 5.1 Arranque y Operación de Motores -->
+            <h3>5.1 Arranque y Operación de Motores</h3>
+            <p>Antes de arrancar cualquier motor de aeronave: posicione la aeronave orientada hacia el viento
+                prevaleciente para asegurar enfriamiento adecuado, asegúrese de que no ocurran daños a la propiedad o
+                lesiones personales por la ráfaga de la hélice o el escape del jet, y si se usa energía eléctrica
+                externa, asegúrese de que pueda retirarse de manera segura y sea suficiente para toda la secuencia de
+                arranque.</p>
+            <p>Durante todos los procedimientos de arranque, un "vigilante de fuego" equipado con un extintor adecuado
+                (CO2 de al menos 5 libras) debe estar estacionado en un lugar apropiado: adyacente al lado exterior del
+                motor, a la vista del piloto, y donde pueda observar el motor/aeronave para indicaciones de problemas de
+                arranque. Si la aeronave tiene motor turbina, el área frente a la entrada del jet debe mantenerse libre
+                de personal, propiedad y escombros (FOD).</p>
+
+            <!-- 5.2 Motores Recíprocos -->
+            <h3>5.2 Arranque de Motores Recíprocos</h3>
+            <p>Antes de arrancar un motor radial que ha estado apagado por más de 30 minutos, verifique que el
+                interruptor de ignición esté apagado y gire la hélice de tres a cuatro revoluciones completas a mano
+                para detectar un bloqueo hidráulico. Cualquier líquido presente en un cilindro se indica por el esfuerzo
+                anormal requerido para rotar la hélice. Nunca use fuerza para girar la hélice cuando se detecta un
+                bloqueo; se puede ejercer suficiente fuerza en el cigüeñal para doblar o romper una biela.</p>
+            <p>Para arrancar el motor: encienda la bomba auxiliar de combustible, coloque el control de mezcla en la
+                posición recomendada ("corte de ralentí" para inyección de combustible, "mezcla rica" para carburadores
+                de flotador), abra el acelerador para 1,000-1,200 rpm, deje el control de precalentamiento en posición
+                "frío", cebe según sea necesario (más cebado en clima más frío), energice el arrancador y después de al
+                menos dos revoluciones de la hélice, encienda la ignición. No arranque el motor continuamente por más de
+                1 minuto; permita 3-5 minutos de enfriamiento entre intentos.</p>
+
+            <!-- 5.3 Arranque Manual -->
+            <h3>5.3 Arranque Manual de Motores</h3>
+            <p>Si la aeronave no tiene autoarrancador, el motor se arranca girando la hélice a mano. La persona que gira
+                la hélice dice: "Combustible abierto, interruptor apagado, acelerador cerrado, frenos puestos." El
+                operador verifica y repite la frase. El interruptor y acelerador no deben tocarse hasta que la persona
+                que gira la hélice diga "contacto". El operador repite "contacto" y luego enciende el interruptor.</p>
+            <p>Precauciones importantes: siempre asuma que la ignición está encendida cuando toque una hélice; asegúrese
+                de que el suelo esté firme (el pasto resbaladizo, lodo o grava suelta pueden causar una caída hacia la
+                hélice); párese lo suficientemente cerca para poder alejarse cuando la jale hacia abajo; siempre mueva
+                la pala hacia abajo empujando con las palmas de las manos, nunca agarre la pala con los dedos curvados
+                sobre el borde.</p>
+
+            <!-- 5.4 Extinción de Incendios de Motor -->
+            <h3>5.4 Extinción de Incendios de Motor</h3>
+            <p>En todos los casos, un vigilante de fuego debe estar listo con un extintor de CO2 mientras se arranca el
+                motor de la aeronave. El vigilante debe estar familiarizado con el sistema de admisión del motor para
+                poder dirigir el CO2 hacia la entrada de aire del motor para extinguirlo. También podría ocurrir un
+                incendio en el sistema de escape por combustible líquido encendido en el cilindro.</p>
+            <p>Si se desarrolla un incendio de motor durante el procedimiento de arranque, continúe arrancando para
+                encender el motor y apagar el fuego soplándolo. Si el motor no arranca y el fuego continúa ardiendo,
+                suspenda el intento de arranque y el vigilante extinguirá el fuego usando el equipo disponible.</p>
+
+            <!-- 5.5 Motores Turbohélice -->
+            <h3>5.5 Arranque de Motores Turbohélice</h3>
+            <p>El arranque de cualquier motor turbina consiste en tres pasos que deben realizarse en la secuencia
+                correcta: el arrancador gira el compresor principal para proporcionar flujo de aire a través del motor;
+                a la velocidad correcta que proporciona suficiente flujo de aire, se encienden los ignitores; y se
+                introduce el combustible. A medida que el motor acelera, alcanza una velocidad autosostenible y el
+                arrancador se desconecta.</p>
+            <p>Antes de arrancar, se deben remover las cubiertas protectoras, inspeccionar las áreas de escape por
+                presencia de combustible o aceite, hacer una inspección visual de todas las partes accesibles de los
+                motores y controles, revisar los sumideros por agua, inspeccionar las áreas de entrada de aire y
+                verificar la rotación libre del compresor girando las palas a mano. La instrumentación incluye: presión
+                de aceite, temperatura de aceite, temperatura inter-turbina (ITT), flujo de combustible, velocidad del
+                generador de gas, velocidad de la hélice y torque.</p>
+
+            <!-- 5.6 Motores Turbofan -->
+            <h3>5.6 Arranque de Motores Turbofan</h3>
+            <p>A diferencia de las aeronaves con motor recíproco, las aeronaves con turbina no requieren calentamiento
+                previo al vuelo a menos que sea necesario investigar una falla sospechada. Antes de arrancar, se deben
+                remover todas las cubiertas protectoras, orientar la aeronave hacia el viento, despejar el área de
+                personal y equipo suelto, verificar los sumideros de combustible por agua, e inspeccionar visualmente
+                las palas del ventilador y del compresor por daños.</p>
+            <p>Los controles típicos del motor turbofan consisten en palancas de potencia, palancas de reversa y
+                palancas de arranque (las aeronaves más nuevas han reemplazado las palancas de arranque con un
+                interruptor de combustible). El procedimiento general incluye: colocar la palanca de potencia en
+                "ralentí", encender las bombas de refuerzo de combustible, encender el arrancador, encender la ignición,
+                mover la palanca de arranque a "ralentí" o "arranque" para iniciar el flujo de combustible, monitorear
+                el aumento de temperatura de gases de escape para confirmar el encendido, verificar la rotación del
+                ventilador y la presión de aceite.</p>
+
+            <!-- 5.7 Unidades de Potencia Auxiliar -->
+            <h3>5.7 Unidades de Potencia Auxiliar (APU)</h3>
+            <p>Las APU son generalmente motores turbina más pequeños que proporcionan aire comprimido para arrancar
+                motores, calefacción y refrigeración de cabina, y energía eléctrica mientras están en tierra. Su
+                operación es normalmente simple: al girar un interruptor a la posición de arranque (con resorte a la
+                posición de encendido), el motor arranca automáticamente. Durante el arranque, debe monitorearse la
+                temperatura de gases de escape.</p>
+            <p>Las APU están en ralentí al 100% de rpm sin carga. Después de que el motor alcanza sus rpm de operación,
+                puede usarse para enfriar o calentar la cabina y para energía eléctrica. Normalmente se usa para
+                arrancar los motores principales.</p>
+
+            <!-- 5.8 Arranques Insatisfactorios -->
+            <h3>5.8 Arranques Insatisfactorios de Motores Turbina</h3>
+            <p><strong>Arranque caliente:</strong> Ocurre cuando el motor arranca pero la temperatura de gases de escape
+                excede los límites especificados. Generalmente es causado por una mezcla combustible/aire excesivamente
+                rica. El combustible debe cortarse inmediatamente.</p>
+            <p><strong>Arranque falso o colgado:</strong> Ocurre cuando el motor arranca normalmente pero las rpm
+                permanecen en algún valor bajo en lugar de aumentar a las rpm normales de arranque. A menudo es
+                resultado de potencia insuficiente al arrancador. Apague el motor.</p>
+            <p><strong>El motor no arranca:</strong> Puede ser causado por falta de combustible al motor, potencia
+                eléctrica insuficiente al excitador del sistema de ignición, o mezcla de combustible incorrecta. En
+                todos los casos de arranques insatisfactorios, el combustible e ignición deben apagarse y continuar
+                rotando el compresor por aproximadamente 15 segundos para remover el combustible acumulado del motor.
+            </p>
+
+            <!-- SECCIÓN 6: REMOLQUE DE AERONAVES -->
+            <h2>6. Remolque de Aeronaves</h2>
+            <p>El movimiento de aeronaves grandes por el aeropuerto, línea de vuelo y hangar generalmente se realiza
+                remolcando con un tractor de remolque (a veces llamado "tug"). Las aeronaves pequeñas a veces se mueven
+                empujando a mano en las áreas correctas. Las operaciones de remolque pueden ser peligrosas, causando
+                daños a la aeronave y lesiones al personal si se realizan de manera descuidada.</p>
+
+            <!-- 6.1 Procedimientos de Remolque -->
+            <h3>6.1 Procedimientos de Remolque</h3>
+            <p>Antes de mover la aeronave, una persona calificada debe estar en la cabina de vuelo para operar los
+                frenos en caso de que la barra de remolque falle o se desenganche. Las barras de remolque están
+                diseñadas con suficiente resistencia a la tracción para jalar la mayoría de las aeronaves, pero no están
+                destinadas a soportar cargas de torsión. Cuando la barra está conectada a la aeronave, inspeccione todos
+                los dispositivos de enganche por daño o mal funcionamiento antes de mover la aeronave.</p>
+            <p>La velocidad de remolque debe ser razonable y todas las personas involucradas deben estar alertas. Al
+                detenerse, no confíe únicamente en los frenos del vehículo de remolque; la persona en la cabina debe
+                coordinar el uso de los frenos de la aeronave con los del vehículo. Las aeronaves con rueda de cola
+                generalmente se remolcan hacia adelante conectando la barra al tren de aterrizaje principal; pueden
+                remolcarse en reversa conectando la barra al eje de la rueda de cola. Las aeronaves con tren triciclo se
+                remolcan hacia adelante conectando la barra al eje de la rueda de nariz.</p>
+
+            <!-- 6.2 Equipo y Personal de Remolque -->
+            <h3>6.2 Equipo y Personal de Remolque</h3>
+            <p>Un equipo de remolque competente dirige la operación. El conductor del vehículo es responsable de operar
+                el vehículo de manera segura y obedecer las instrucciones de parada de emergencia. La persona a cargo
+                asigna caminantes de ala en cada punta de ala para asegurar holgura adecuada de obstrucciones. Se asigna
+                un caminante de cola cuando se van a hacer giros cerrados o cuando la aeronave va a retroceder a su
+                posición.</p>
+            <p>Una persona calificada ocupa el asiento del piloto para observar y operar los frenos. En aeronaves con
+                rueda de nariz direccional, las tijeras de bloqueo deben configurarse para giro completo para remolque
+                (y restablecerse después de remover la barra). Bajo ninguna circunstancia se permite a nadie caminar o
+                ir entre la rueda de nariz y el vehículo de remolque, ni ir en el exterior de una aeronave o vehículo en
+                movimiento.</p>
+
+            <!-- 6.3 Consideraciones Adicionales de Remolque -->
+            <h3>6.3 Consideraciones Adicionales de Remolque</h3>
+            <p>La velocidad de remolque no debe exceder la de los miembros del equipo que caminan. Los motores de la
+                aeronave generalmente no operan cuando se está remolcando a posición. El sistema de frenos debe estar
+                cargado antes de cada operación; las aeronaves con frenos defectuosos solo se remolcan a posición para
+                reparación, con personal listo con calzas para uso de emergencia.</p>
+            <p>Para evitar posibles lesiones y daños durante las operaciones de remolque: las puertas de entrada deben
+                estar cerradas, las escaleras retraídas y los seguros de tren abajo instalados. Antes de remolcar,
+                verifique la inflación correcta de todos los neumáticos y puntales del tren de aterrizaje. Al mover
+                aeronaves, no arranque ni pare repentinamente. Antes de cualquier movimiento a través de pistas o calles
+                de rodaje, contacte la torre de control para autorización.</p>
+
+            <!-- SECCIÓN 7: RODAJE DE AERONAVES -->
+            <h2>7. Rodaje de Aeronaves</h2>
+            <p>Como regla general, solo pilotos certificados y técnicos de estructura y planta motriz (A&P) calificados
+                están autorizados para arrancar, calentar y rodar aeronaves. Todas las operaciones de rodaje se realizan
+                de acuerdo con las regulaciones locales aplicables.</p>
+
+            <!-- 7.1 Señales de Rodaje -->
+            <h3>7.1 Señales de Rodaje</h3>
+            <p>Muchos accidentes en tierra han ocurrido como resultado de técnicas inadecuadas en el rodaje de
+                aeronaves. Aunque el piloto es en última instancia responsable de la aeronave hasta que el motor se
+                detiene, un señalero puede asistir al piloto alrededor de la línea de vuelo. En algunas configuraciones
+                de aeronaves, la visión del piloto está obstruida en tierra; no puede ver obstrucciones cerca de las
+                ruedas o bajo las alas y tiene poca idea de lo que hay detrás de la aeronave.</p>
+            <p>La posición estándar del señalero es ligeramente adelante y en línea con la punta del ala izquierda de la
+                aeronave. El señalero debe permanecer lo suficientemente adelante de la punta del ala para estar en el
+                campo visual del piloto. Una buena práctica es realizar una prueba: si el señalero puede ver los ojos
+                del piloto, el piloto puede ver las señales.</p>
+
+            <!-- 7.2 Señales de Luz de Rodaje -->
+            <h3>7.2 Señales de Luz de Rodaje</h3>
+            <p>Las torres de control utilizan señales de luz estándar para controlar y agilizar el rodaje de aeronaves:
+                luz verde intermitente significa autorizado para rodar; rojo fijo significa detenerse; rojo intermitente
+                significa despejar la pista en uso; blanco intermitente significa regresar al punto de partida; y rojo y
+                verde alternados significa ejercer extrema precaución.</p>
+
+            <!-- 7.3 Señales Manuales Estándar -->
+            <h3>7.3 Señales Manuales Estándar</h3>
+            <p>Las señales de rodaje estándar publicadas en el Manual de Información Aeronáutica (AIM) de la FAA
+                incluyen: señalero indica disposición para asumir guía de la aeronave extendiendo ambos brazos sobre la
+                cabeza con palmas enfrentadas; señal de avanzar; señal de girar a la izquierda/derecha; señal de parada;
+                señal de parada de emergencia; señal de cortar motores; señal de arrancar motores; señal de remover
+                calzas; señal de insertar calzas; y señal de reducir velocidad.</p>
+            <p>Las señales deben ejecutarse de manera clara y precisa para que el piloto no pueda confundir su
+                significado. Las manos deben mantenerse bien separadas y las señales deben exagerarse. Las señales de
+                rodaje nocturnas se dan con varitas iluminadas conectadas a linternas, realizándose de la misma manera
+                que las señales diurnas, excepto que la señal de parada usada de noche es la señal de "parada de
+                emergencia" (cruzando las varitas para formar una "X" iluminada).</p>
+
+            <!-- 7.4 Señales de Helicóptero -->
+            <h3>7.4 Señales de Operación de Helicópteros</h3>
+            <p>Las señales más comúnmente usadas para operaciones de helicópteros incluyen: arrancar motor, engranar
+                rotor, detener rotor, parada, retroceder, avanzar, mover a la derecha, mover a la izquierda, despegar,
+                dirección de aterrizaje, subir, bajar, girar cola a la derecha, y girar cola a la izquierda.</p>
+
+            <!-- SECCIÓN 8: SERVICIO DE AERONAVES -->
+            <h2>8. Servicio de Aeronaves</h2>
+
+            <!-- 8.1 Servicio de Fluidos -->
+            <h3>8.1 Servicio de Aire/Nitrógeno, Aceite y Fluidos</h3>
+            <p>Verificar o dar servicio a los fluidos de aeronaves es una función de mantenimiento importante. Antes de
+                dar servicio a cualquier aeronave, consulte el manual de mantenimiento específico. El aceite de motor
+                generalmente se verifica con una varilla de medición o indicador visual. Los motores recíprocos deben
+                verificarse después de que el motor ha estado inactivo, mientras que los motores turbina deben
+                verificarse justo después del apagado.</p>
+            <p>Los sistemas de aceite de cárter seco tienden a ocultar aceite que ha pasado del tanque a la caja de
+                engranajes; este aceite no aparece en la varilla hasta que el motor ha sido arrancado o motorizado.
+                Nunca sobrellene el tanque de aceite; el espacio de expansión permite la formación de espuma del aceite.
+                Al dar servicio a un depósito hidráulico, debe usarse el fluido correcto. Algunos depósitos están
+                presurizados con aire que debe purgarse antes del servicio.</p>
+
+            <!-- 8.2 Equipo de Apoyo en Tierra -->
+            <h3>8.2 Equipo de Apoyo en Tierra</h3>
+            <p><strong>Unidades de potencia eléctrica en tierra:</strong> Varían ampliamente en tamaño y tipo
+                (remolcadas, estacionarias o autopropulsadas). Las más pequeñas son baterías de alta capacidad para
+                arrancar aeronaves ligeras. Las unidades más grandes están equipadas con generadores que proporcionan un
+                rango más amplio de potencia de salida. Al usar unidades de potencia eléctrica, posiciónelas para
+                prevenir colisiones con la aeronave y nunca mueva una unidad cuando los cables de servicio estén
+                conectados.</p>
+            <p><strong>Unidades de potencia hidráulica:</strong> A veces llamadas "mulas hidráulicas", proporcionan
+                presión hidráulica para operar los sistemas de la aeronave durante el mantenimiento. Pueden drenar
+                sistemas hidráulicos, filtrar fluido, rellenar con fluido limpio y verificar operación y fugas. Operando
+                a presiones de 3,000 psi o más, se debe usar extrema precaución; a 3,000 psi, una pequeña corriente de
+                una fuga puede cortar como un cuchillo afilado.</p>
+            <p><strong>Unidades de aire de apoyo:</strong> Los carros de aire proporcionan aire de baja presión (hasta
+                50 psi de alto volumen) para arrancar motores y calentar/enfriar la aeronave en tierra. Generalmente
+                consisten en una APU incorporada que proporciona aire de sangrado del compresor de la APU. La mayoría de
+                las puertas de aeropuerto tienen instalaciones permanentes para proporcionar aire caliente o enfriado.
+            </p>
+
+            <!-- 8.3 Servicio de Oxígeno -->
+            <h3>8.3 Equipo de Servicio de Oxígeno</h3>
+            <p>Se requieren dos personas para dar servicio a una aeronave con oxígeno gaseoso: una en las válvulas de
+                control del equipo de servicio y otra donde pueda observar la presión en el sistema de la aeronave. No
+                dé servicio de oxígeno durante el abastecimiento de combustible, desabastecimiento u otros trabajos de
+                mantenimiento que puedan proporcionar una fuente de ignición. El servicio de oxígeno debe realizarse
+                fuera de los hangares.</p>
+            <p>Solo debe usarse oxígeno marcado "Oxígeno de Respiración para Aviación" que cumpla con la Especificación
+                Federal BB-O-925A, Grado A. El oxígeno industrial puede contener impurezas que pueden enfermar al
+                personal, y el oxígeno médico contiene agua que puede congelarse a las altitudes donde se necesita
+                oxígeno. El oxígeno gaseoso es químicamente estable y no inflamable, pero los materiales combustibles se
+                encienden más rápidamente en una atmósfera rica en oxígeno, y el oxígeno combinado con aceite o grasa
+                forma una mezcla altamente explosiva.</p>
+
+            <!-- 8.4 Combustibles de Aviación -->
+            <h3>8.4 Tipos de Combustible e Identificación</h3>
+            <p>Dos tipos de combustible de aviación en uso general son la gasolina de aviación (AVGAS) y el combustible
+                de turbina (JET A). El AVGAS se usa en motores recíprocos y actualmente hay tres grados en uso general:
+                80/87 (rojo), 100/130 (verde), y 100LL (bajo plomo, azul). Un cuarto grado, 115/145 (púrpura), tiene uso
+                limitado. Los dos números indican las clasificaciones de octanaje de mezcla pobre y mezcla rica.</p>
+            <p>El combustible de turbina/jet se usa para motores turbojet y turbohélice. Tres tipos generalmente usados
+                son JET A y JET A-1 (hechos de queroseno) y JET B (mezcla de queroseno y AVGAS). El combustible jet se
+                identifica por el color negro en tuberías y equipo de abastecimiento, aunque el color real puede ser
+                claro o color paja. Agregar combustible jet al AVGAS causa disminución de potencia y puede dañar el
+                motor; agregar AVGAS al combustible jet puede causar depósitos de plomo y reducir la vida útil del motor
+                turbina.</p>
+
+            <!-- 8.5 Control de Contaminación -->
+            <h3>8.5 Control de Contaminación del Combustible</h3>
+            <p>La contaminación es cualquier cosa en el combustible que no debería estar allí. Los tipos incluyen agua,
+                sólidos y crecimientos microbianos. El agua puede ser disuelta (vapor) o libre; el agua libre puede
+                aparecer como acumulaciones de agua o agua suspendida que da al combustible un aspecto turbio. Los
+                contaminantes sólidos incluyen óxido, suciedad, arena, material de juntas, pelusa y fragmentos de
+                toallas de taller.</p>
+            <p>Los crecimientos microbiológicos son un problema en el combustible jet. Varios microorganismos pueden
+                vivir en el agua libre del combustible jet. Las condiciones favorables para su crecimiento son
+                temperaturas cálidas y presencia de óxido de hierro y sales minerales en el agua. La mejor manera de
+                prevenir el crecimiento microbiano es mantener el combustible seco. Los efectos incluyen: formación de
+                limo que puede obstruir filtros, emulsificación del combustible y compuestos corrosivos que pueden
+                atacar la estructura del tanque.</p>
+
+            <!-- 8.6 Procedimientos de Abastecimiento -->
+            <h3>8.6 Procedimientos de Abastecimiento de Combustible</h3>
+            <p>Existen dos procedimientos básicos: el método sobre el ala (para aeronaves más pequeñas, usando la
+                manguera para llenar a través de puertos en la parte superior del ala) y el sistema de punto único (para
+                aeronaves más grandes, usando receptáculos en el borde de ataque inferior del ala para llenar todos los
+                tanques). El sistema de punto único disminuye el tiempo de reabastecimiento, limita la contaminación y
+                reduce la posibilidad de ignición por electricidad estática.</p>
+            <p>Antes de abastecer: asegúrese de que todos los sistemas eléctricos y electrónicos estén apagados, no
+                lleve nada en los bolsillos de la camisa, no lleve dispositivos que produzcan llama, asegúrese de usar
+                el tipo y grado correcto de combustible, drene todos los sumideros, use protección ocular, no abastezca
+                si hay peligro de que otras aeronaves soplen suciedad hacia la aeronave, no abastezca cuando haya rayos
+                a menos de 5 millas, y no abastezca a menos de 500 pies de radar terrestre en operación.</p>
+
+            <!-- 8.7 Conexión a Tierra -->
+            <h3>8.7 Procedimientos de Conexión a Tierra</h3>
+            <p>La electricidad estática es un subproducto de una sustancia frotando contra otra. El combustible fluyendo
+                por una línea causa cierta cantidad de electricidad estática. Durante el vuelo, la aeronave moviéndose a
+                través del aire causa acumulación de electricidad estática en la estructura. Si esta electricidad no se
+                disipa antes del reabastecimiento, intenta regresar a tierra a través de la línea de combustible, y la
+                chispa puede encender el combustible vaporizado.</p>
+            <p>Al usar equipo móvil de abastecimiento: aproxime la aeronave con precaución, posicionando el camión para
+                poder partir rápidamente sin retroceder; ponga el freno de mano y calce las ruedas; conecte a tierra la
+                aeronave, luego el camión, luego únalos con un cable de conexión; asegúrese de que las conexiones a
+                tierra estén en contacto con metal desnudo (no use el escape del motor o la hélice como puntos de
+                conexión); conecte a tierra la boquilla a la aeronave antes de abrir el tanque; proteja el ala de daños
+                por combustible derramado; y retire los cables de tierra en orden inverso.</p>
+
+            <!-- 8.8 Desabastecimiento -->
+            <h3>8.8 Desabastecimiento</h3>
+            <p>Los procedimientos de desabastecimiento difieren según el tipo de aeronave. Antes de desabastecer,
+                consulte el manual de mantenimiento/servicio para procedimientos y precauciones específicas. El
+                desabastecimiento puede realizarse por gravedad (requiere un método de recolección del combustible) o
+                bombeando el combustible de los tanques (cuidando de no dañar los tanques, y el combustible removido no
+                puede mezclarse con combustible bueno).</p>
+            <p>Precauciones generales al desabastecer: conecte a tierra la aeronave y el equipo de desabastecimiento,
+                apague todos los equipos eléctricos y electrónicos, tenga disponible el tipo correcto de extintor de
+                incendios, y use protección ocular.</p>
+
+            <div style="margin-top: 30px; text-align: center;">
+                <a href="gallery.html#chapter1" class="btn">🖼️ Ver Galería del Capítulo 1</a>
+            </div>
+
             <p>Texto explicativo adicional...</p>
+            <div style="margin-top: 30px; text-align: center;">
+                <a href="gallery.html#chapter1" class="btn">🖼️ Ver Galería del Capítulo 1</a>
+            </div>
+
         </div>
     </main>
 
-        <footer>
+    <footer>
         <p>&copy; 2025 VHHI</p>
     </footer>
 
@@ -78,4 +700,5 @@
 
     <script src="src/js/main.js"></script>
 </body>
+
 </html>
