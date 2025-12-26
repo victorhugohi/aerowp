@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Introducción a la Aeronáutica</title>
+    <title>Materias - Introducción a la Aeronáutica</title>
     <link rel="stylesheet" href="src/css/styles.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&family=Oswald:wght@500&display=swap"
@@ -24,7 +24,7 @@
             <button class="search-btn"
                 style="background:none; border:none; font-size: 1.2rem; cursor: pointer;">🔍</button>
             <div class="lang-switch">
-                <a href="en/index.html" class="btn lang-btn"
+                <a href="en/materias.html" class="btn lang-btn"
                     style="padding: 5px 10px; font-size: 0.9rem; display: flex; align-items: center; gap: 5px;">
                     🇺🇸 EN
                 </a>
@@ -33,6 +33,7 @@
     </header>
 
     <div class="sidebar">
+        <!-- Sidebar will be updated by batch script -->
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
@@ -66,33 +67,52 @@
 
     <main>
         <div class="card">
-            <h1>Bienvenido a Introducción a la Aeronáutica</h1>
-            <p>Explora los fundamentos del vuelo, las estructuras de las aeronaves y la aerodinámica avanzada.</p>
+            <h1>Materias</h1>
+            <p>Explora los diferentes capítulos y áreas de conocimiento que se cubren en el curso.</p>
 
-            <div class="media-container">
-                [Espacio para Imagen/Video Promocional]
+            <div class="materias-container">
+                <section id="plan-estudios" style="margin-bottom: 50px;">
+                    <h2 style="border-bottom: 1px solid #ccc; padding-bottom: 10px; margin-bottom: 20px;">Plan de
+                        Estudios</h2>
+                    <p>Información general sobre el plan de estudios de la carrera.</p>
+                    <div class="relation-grid"
+                        style="display: grid; gap: 20px; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); margin-top: 20px;">
+                        <!-- Placeholder items for full Plan de Estudios -->
+                        <div class="relation-card" style="border: 1px solid #ccc; padding: 15px; border-radius: 8px;">
+                            <h3>Primer Semestre</h3>
+                            <p>Materias básicas de ingeniería.</p>
+                        </div>
+                        <div class="relation-card" style="border: 1px solid #ccc; padding: 15px; border-radius: 8px;">
+                            <h3>Segundo Semestre</h3>
+                            <p>Introducción a la aeronáutica.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="pre-universitario">
+                    <h2 style="border-bottom: 1px solid #ccc; padding-bottom: 10px; margin-bottom: 20px;">Curso Pre
+                        Universitario</h2>
+                    <p>Materias fundamentales para el ingreso a la carrera.</p>
+                    <div class="topic-grid">
+                        <article class="topic-card">
+                            <h3>Física</h3>
+                            <p>Conceptos fundamentales aplicados a la aeronáutica.</p>
+                        </article>
+                        <article class="topic-card">
+                            <h3>Matemáticas</h3>
+                            <p>Cálculo y álgebra para el análisis de vuelo.</p>
+                        </article>
+                        <article class="topic-card">
+                            <h3>Inglés</h3>
+                            <p>Terminología técnica y comunicación aeronáutica.</p>
+                        </article>
+                        <article class="topic-card">
+                            <h3>Lenguaje y Redacción</h3>
+                            <p>Documentación técnica y reportes.</p>
+                        </article>
+                    </div>
+                </section>
             </div>
-
-            <p>Selecciona un capítulo del menú para comenzar.</p>
-
-            <section id="chapter-list" class="chapter-list-section">
-                <h2>Lista de Capítulos</h2>
-                <ul class="main-chapter-list">
-                    <li><a href="chapter1.html"><strong>1.</strong> Seguridad, Operaciones en Tierra y Servicio</a></li>
-                    <li><a href="chapter2.html"><strong>2.</strong> Operaciones Aeroportuarias</a></li>
-                    <li><a href="chapter3.html"><strong>3.</strong> Toma de Decisiones Aeronáuticas</a></li>
-                    <li><a href="chapter4.html"><strong>4.</strong> Introducción al Vuelo</a></li>
-                    <li><a href="chapter5.html"><strong>5.</strong> Principios de Vuelo</a></li>
-                    <li><a href="chapter6.html"><strong>6.</strong> Factores Humanos</a></li>
-                    <li><a href="chapter7.html"><strong>7.</strong> Matemáticas en el Mantenimiento de Aviación</a></li>
-                    <li><a href="chapter8.html"><strong>8.</strong> Física para la Aviación</a></li>
-                    <li><a href="chapter9.html"><strong>9.</strong> Regulaciones, Formularios de Mantenimiento,
-                            Registros y Publicaciones</a></li>
-                    <li><a href="chapter10.html"><strong>10.</strong> Manuales de Vuelo y Otros Documentos</a></li>
-                    <!-- Chapters 11-20 hidden per updated requirements -->
-                    <li><a href="glossary.html" class="glossary-link">📖 Glosario</a></li>
-                </ul>
-            </section>
         </div>
     </main>
 
