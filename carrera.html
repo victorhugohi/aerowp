@@ -14,14 +14,18 @@
 <body>
 
     <header>
-        <a href="index.html" class="logo-link" style="text-decoration: none; color: inherit;"><div class="logo-area">
-            <span>✈️</span> AeroWP
-        </div></a>
+        <a href="index.html" class="logo-link" style="text-decoration: none; color: inherit;">
+            <div class="logo-area">
+                <span>✈️</span> AeroWP
+            </div>
+        </a>
         <button class="menu-toggle">☰</button>
         <div class="header-controls" style="display: flex; gap: 10px; align-items: center;">
-            <button class="search-btn" style="background:none; border:none; font-size: 1.2rem; cursor: pointer;">🔍</button>
+            <button class="search-btn"
+                style="background:none; border:none; font-size: 1.2rem; cursor: pointer;">🔍</button>
             <div class="lang-switch">
-                <a href="en/carrera.html" class="btn lang-btn" style="padding: 5px 10px; font-size: 0.9rem; display: flex; align-items: center; gap: 5px;">
+                <a href="en/carrera.html" class="btn lang-btn"
+                    style="padding: 5px 10px; font-size: 0.9rem; display: flex; align-items: center; gap: 5px;">
                     🇺🇸 EN
                 </a>
             </div>
@@ -32,11 +36,8 @@
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="carrera.html">Carrera</a></li>
-                <li><a href="topics.html">Temas</a></li>
-                                                <li><a href="gallery.html">Galería</a></li>
+                <li><a href="gallery.html">Galería</a></li>
                 <li><a href="formulas.html">Fórmulas</a></li>
-                <li><a href="relations.html">Relación de Materias</a></li>
                 <li><hr style="border-color: rgba(255,255,255,0.1);"></li>
                 <li class="chapter-dropdown">
                     <details>
@@ -52,21 +53,10 @@
                             <li><a href="chapter8.html">Capítulo 8</a></li>
                             <li><a href="chapter9.html">Capítulo 9</a></li>
                             <li><a href="chapter10.html">Capítulo 10</a></li>
-                            <li><a href="chapter11.html">Capítulo 11</a></li>
-                            <li><a href="chapter12.html">Capítulo 12</a></li>
-                            <li><a href="chapter13.html">Capítulo 13</a></li>
-                            <li><a href="chapter14.html">Capítulo 14</a></li>
-                            <li><a href="chapter15.html">Capítulo 15</a></li>
-                            <li><a href="chapter16.html">Capítulo 16</a></li>
-                            <li><a href="chapter17.html">Capítulo 17</a></li>
-                            <li><a href="chapter18.html">Capítulo 18</a></li>
-                            <li><a href="chapter19.html">Capítulo 19</a></li>
-                            <li><a href="chapter20.html">Capítulo 20</a></li>
                         </ul>
                     </details>
                 </li>
-                <li><a href="glossary.html">Glosario
-                    </a></li>
+                <li><a href="glossary.html">Glosario</a></li>
                 <li><hr style="border-color: rgba(255,255,255,0.1);"></li>
                 <li><a href="contact.html">Contacto</a></li>
                 <li><a href="about.html">Acerca de</a></li>
@@ -91,6 +81,42 @@
                 <li>Sistemas de Propulsión</li>
                 <li>Mantenimiento y Seguridad Aérea</li>
             </ul>
+
+            <h2 style="margin-top: 40px;">Preguntas Frecuentes (FAQ)</h2>
+            <div class="faq-section">
+                <details>
+                    <summary
+                        style="cursor: pointer; padding: 10px; background: rgba(0,0,0,0.05); margin-bottom: 5px; border-radius: 4px;">
+                        ¿Cuánto dura la carrera?</summary>
+                    <p style="padding: 10px;">La carrera tiene una duración aproximada de 5 años.</p>
+                </details>
+                <details>
+                    <summary
+                        style="cursor: pointer; padding: 10px; background: rgba(0,0,0,0.05); margin-bottom: 5px; border-radius: 4px;">
+                        ¿Cuáles son los requisitos de ingreso?</summary>
+                    <p style="padding: 10px;">Se requiere título de bachiller y aprobar el examen de ingreso o curso
+                        preuniversitario.</p>
+                </details>
+                <details>
+                    <summary
+                        style="cursor: pointer; padding: 10px; background: rgba(0,0,0,0.05); margin-bottom: 5px; border-radius: 4px;">
+                        ¿Dónde puedo trabajar al graduarme?</summary>
+                    <p style="padding: 10px;">En aerolíneas, talleres de mantenimiento, administración aeroportuaria y
+                        organismos reguladores.</p>
+                </details>
+            </div>
+
+            <h2 style="margin-top: 40px;">Comentarios</h2>
+            <div class="comments-section">
+                <form action="#" method="POST" class="comment-form">
+                    <textarea placeholder="Deja tu comentario o consulta aquí..." rows="4"
+                        style="width: 100%; padding: 10px; border-radius: 4px; border: 1px solid #ccc;"></textarea>
+                    <button type="submit" class="btn" style="margin-top: 10px;">Publicar Comentario</button>
+                </form>
+                <div class="existing-comments" style="margin-top: 20px;">
+                    <p><em>No hay comentarios todavía. ¡Sé el primero en comentar!</em></p>
+                </div>
+            </div>
         </div>
     </main>
 

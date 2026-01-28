@@ -1,0 +1,15 @@
+..F.
+======================================================================
+FAIL: test_links_validity (test_site_integrity.TestSiteIntegrity.test_links_validity)
+Crawl all HTML files and verify that local hrefs point to existing files.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\hello\aerowp\tests\test_site_integrity.py", line 78, in test_links_validity
+    self.fail(f"Broken link in {filepath}: {link} -> {target_path} does not exist")
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Broken link in D:\hello\aerowp\materias.html: en/materias.html -> D:\hello\aerowp\en/materias.html does not exist
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.064s
+
+FAILED (failures=1)
